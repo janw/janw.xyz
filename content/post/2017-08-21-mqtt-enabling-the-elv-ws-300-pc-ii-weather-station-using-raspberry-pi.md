@@ -9,7 +9,7 @@ tags:
 - mqtt
 - raspberry pi
 - rx868
-title: MQTT-enabling the sensors of an old ELV WS 300 PC II Weather Station using the Raspberry Pi
+title: Smart Home enabling an old Weather Station
 author: Testi
 ---
 
