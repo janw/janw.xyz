@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Tutorials
 date: '2015-07-06'
-guid: http://beta.janw.io/how-to-prevent-traffic-from-bypassing-your-vpn-connection-on-osx/
 id: 51
-slug: how-to-prevent-traffic-from-bypassing-your-vpn-connection-on-osx/
+slug: how-to-prevent-traffic-from-bypassing-your-vpn-connection-on-osx
 tags:
 - firewall
 - mac os x

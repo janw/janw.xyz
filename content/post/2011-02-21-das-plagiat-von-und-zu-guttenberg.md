@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Op-Ed
 date: '2011-02-21'
-guid: http://beta.janw.io/das-plagiat-von-und-zu-guttenberg/
 id: 79
-slug: das-plagiat-von-und-zu-guttenberg/
+slug: das-plagiat-von-und-zu-guttenberg
 tags:
 - doctoral studies
 - guttenberg

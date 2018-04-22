@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Tutorials
 date: '2016-02-20'
-guid: http://beta.janw.io/move-your-ios-device-backups-out-of-icloud-to-your-mac/
 id: 41
-slug: move-your-ios-device-backups-out-of-icloud-to-your-mac/
+slug: move-your-ios-device-backups-out-of-icloud-to-your-mac
 tags:
 - backups
 - itunes

@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Recipes
 date: '2012-06-30'
-guid: http://beta.janw.io/thai-suppe-mit-kokos-und-huhnchen/
 id: 62
-slug: thai-suppe-mit-kokos-und-huhnchen/
+slug: thai-suppe-mit-kokos-und-huhnchen
 tags:
 - poultry
 - recipe

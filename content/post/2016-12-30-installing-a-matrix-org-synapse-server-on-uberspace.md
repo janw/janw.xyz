@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Tutorials
 date: '2016-12-30'
-guid: http://beta.janw.io/installing-a-matrix-org-synapse-server-on-uberspace/
 id: 35
-slug: installing-a-matrix-org-synapse-server-on-uberspace/
+slug: installing-a-matrix-org-synapse-server-on-uberspace
 tags:
 - matrix
 - self-hosting

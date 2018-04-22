@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Technology
 date: '2012-06-03'
-guid: http://beta.janw.io/inxtron-aka-macpower-sk-2500-icon/
 id: 64
-slug: inxtron-aka-macpower-sk-2500-icon/
+slug: inxtron-aka-macpower-sk-2500-icon
 tags:
 - design
 - icon

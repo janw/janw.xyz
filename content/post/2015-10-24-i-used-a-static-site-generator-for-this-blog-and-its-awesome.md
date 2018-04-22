@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Personal
 date: '2015-10-24'
-guid: http://beta.janw.io/i-used-a-static-site-generator-for-this-blog-and-its-awesome/
 id: 49
-slug: i-used-a-static-site-generator-for-this-blog-and-its-awesome/
+slug: i-used-a-static-site-generator-for-this-blog-and-its-awesome
 tags:
 - blog
 - cms

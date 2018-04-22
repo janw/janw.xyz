@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Tutorials
 date: '2016-05-25'
-guid: http://beta.janw.io/properly-granting-access-to-datasets-in-jails-and-plugins-on-freenas/
 id: 36
-slug: properly-granting-access-to-datasets-in-jails-and-plugins-on-freenas/
+slug: properly-granting-access-to-datasets-in-jails-and-plugins-on-freenas
 tags:
 - freebsd
 - freenas

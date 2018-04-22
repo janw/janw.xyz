@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Technology
 date: '2011-12-20'
-guid: http://beta.janw.io/itunes-match-ein-erster-bericht/
 id: 71
-slug: itunes-match-ein-erster-bericht/
+slug: itunes-match-ein-erster-bericht
 tags:
 - apple
 - itunes

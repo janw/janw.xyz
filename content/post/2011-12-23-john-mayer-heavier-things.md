@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Music
 date: '2011-12-23'
-guid: http://beta.janw.io/john-mayer-heavier-things/
 id: 70
-slug: john-mayer-heavier-things/
+slug: john-mayer-heavier-things
 tags:
 - heavier things
 - john mayer

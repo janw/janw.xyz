@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Travel
 date: '2017-08-18'
-guid: https://janw.io/?p=292
 id: 292
-slug: radurlaub-2017-vorbereitungen/
+slug: radurlaub-2017-vorbereitungen
 tags:
 - biketour
 - getting things done

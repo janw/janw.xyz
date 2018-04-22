@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Personal
 date: '2011-05-09'
-guid: http://beta.janw.io/mein-auszug-teil-2/
 id: 77
-slug: mein-auszug-teil-2/
+slug: mein-auszug-teil-2
 tags:
 - commuting
 - moving

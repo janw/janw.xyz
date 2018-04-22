@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Tutorials
 date: '2014-11-05'
-guid: http://beta.janw.io/limiting-full-speed-fans-on-an-intel-server-board-in-a-non-intel-chassis/
 id: 52
-slug: limiting-full-speed-fans-on-an-intel-server-board-in-a-non-intel-chassis/
+slug: limiting-full-speed-fans-on-an-intel-server-board-in-a-non-intel-chassis
 tags:
 - hardware
 - server

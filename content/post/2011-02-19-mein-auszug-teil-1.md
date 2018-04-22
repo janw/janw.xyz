@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Personal
 date: '2011-02-19'
-guid: http://beta.janw.io/mein-auszug-teil-1/
 id: 80
-slug: mein-auszug-teil-1/
+slug: mein-auszug-teil-1
 tags:
 - apartment
 - moving

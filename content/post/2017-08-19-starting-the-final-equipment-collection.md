@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Travel
 date: '2017-08-19'
-guid: https://janw.io/?p=325
 id: 325
-slug: starting-the-final-equipment-collection/
+slug: starting-the-final-equipment-collection
 tags:
 - camping
 - cycling

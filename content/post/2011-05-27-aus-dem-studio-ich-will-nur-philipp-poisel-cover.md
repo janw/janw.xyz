@@ -1,12 +1,10 @@
 ---
-author: Jan
 categories:
 - Music
 date: '2011-05-27'
 format: audio
-guid: http://beta.janw.io/aus-dem-studio-ich-will-nur-philipp-poisel-cover/
 id: 76
-slug: aus-dem-studio-ich-will-nur-philipp-poisel-cover/
+slug: aus-dem-studio-ich-will-nur-philipp-poisel-cover
 tags:
 - coversong
 - song

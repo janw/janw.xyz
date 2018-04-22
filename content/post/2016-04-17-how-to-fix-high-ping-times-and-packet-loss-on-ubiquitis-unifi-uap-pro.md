@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Tutorials
 date: '2016-04-17'
-guid: http://beta.janw.io/how-to-fix-high-ping-times-and-packet-loss-on-ubiquitis-unifi-uap-pro/
 id: 39
-slug: how-to-fix-high-ping-times-and-packet-loss-on-ubiquitis-unifi-uap-pro/
+slug: how-to-fix-high-ping-times-and-packet-loss-on-ubiquitis-unifi-uap-pro
 tags:
 - ubiquiti
 - unifi

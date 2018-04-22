@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Recipes
 date: '2012-06-26'
-guid: http://beta.janw.io/eine-curry-huhnchen-madras-variation/
 id: 63
-slug: eine-curry-huhnchen-madras-variation/
+slug: eine-curry-huhnchen-madras-variation
 tags:
 - curry
 - poultry

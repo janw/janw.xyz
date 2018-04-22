@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Op-Ed
 date: '2011-07-23'
-guid: http://beta.janw.io/audiophilie-und-lossless/
 id: 75
-slug: audiophilie-und-lossless/
+slug: audiophilie-und-lossless
 tags:
 - audio compression
 - audiophiles

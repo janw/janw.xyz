@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Personal
 date: '2017-08-13'
-guid: http://beta.janw.io/change-is-a-matter-of-priorities/
 id: 31
-slug: change-is-a-matter-of-priorities/
+slug: change-is-a-matter-of-priorities
 tags:
 - change
 - personality

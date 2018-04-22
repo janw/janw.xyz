@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Personal
 date: '2017-01-19'
-guid: http://beta.janw.io/backt-mehr-brot/
 id: 34
-slug: backt-mehr-brot/
+slug: backt-mehr-brot
 tags:
 - baking
 - bread

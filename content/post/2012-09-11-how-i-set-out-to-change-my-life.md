@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Personal
 date: '2012-09-11'
-guid: http://beta.janw.io/how-i-set-out-to-change-my-life/
 id: 56
-slug: how-i-set-out-to-change-my-life/
+slug: how-i-set-out-to-change-my-life
 tags:
 - motivation
 - self-improvement

@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Music
 date: '2012-02-11'
-guid: http://beta.janw.io/sorgjerd-und-einaudi-the-mountain-und-seine-begleitung/
 id: 68
-slug: sorgjerd-und-einaudi-the-mountain-und-seine-begleitung/
+slug: sorgjerd-und-einaudi-the-mountain-und-seine-begleitung
 tags:
 - album
 - contemporary classic

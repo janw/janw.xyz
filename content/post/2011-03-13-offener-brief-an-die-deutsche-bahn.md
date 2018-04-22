@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Op-Ed
 date: '2011-03-13'
-guid: http://beta.janw.io/offener-brief-an-die-deutsche-bahn/
 id: 78
-slug: offener-brief-an-die-deutsche-bahn/
+slug: offener-brief-an-die-deutsche-bahn
 tags:
 - bahn
 - delays

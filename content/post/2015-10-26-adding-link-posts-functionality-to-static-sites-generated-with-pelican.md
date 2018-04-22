@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Tutorials
 date: '2015-10-26'
-guid: http://beta.janw.io/adding-link-posts-functionality-to-static-sites-generated-with-pelican/
 id: 47
-slug: adding-link-posts-functionality-to-static-sites-generated-with-pelican/
+slug: adding-link-posts-functionality-to-static-sites-generated-with-pelican
 tags:
 - link posts
 - pelican

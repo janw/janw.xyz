@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Op-Ed
 date: '2011-07-28'
-guid: http://beta.janw.io/das-ende-des-optischen-laufwerks/
 id: 74
-slug: das-ende-des-optischen-laufwerks/
+slug: das-ende-des-optischen-laufwerks
 tags:
 - audio
 - audio compression

@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Personal
 date: '2012-02-13'
-guid: http://beta.janw.io/das-image-interessiert-mich-nicht/
 id: 67
-slug: das-image-interessiert-mich-nicht/
+slug: das-image-interessiert-mich-nicht
 tags:
 - music
 - public image

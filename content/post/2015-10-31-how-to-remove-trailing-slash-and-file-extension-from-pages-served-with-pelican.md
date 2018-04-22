@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Tutorials
 date: '2015-10-31'
-guid: http://beta.janw.io/how-to-remove-trailing-slash-and-file-extension-from-pages-served-with-pelican/
 id: 45
-slug: how-to-remove-trailing-slash-and-file-extension-from-pages-served-with-pelican/
+slug: how-to-remove-trailing-slash-and-file-extension-from-pages-served-with-pelican
 tags:
 - pelican
 - url pattern

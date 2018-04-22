@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Tutorials
 date: '2015-07-17'
-guid: http://beta.janw.io/create-a-local-git-repository-to-be-used-as-a-remote/
 id: 50
-slug: create-a-local-git-repository-to-be-used-as-a-remote/
+slug: create-a-local-git-repository-to-be-used-as-a-remote
 tags:
 - command line
 - git

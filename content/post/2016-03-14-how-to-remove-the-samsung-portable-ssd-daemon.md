@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Tutorials
 date: '2016-03-14'
-guid: http://beta.janw.io/how-to-remove-the-samsung-portable-ssd-daemon/
 id: 40
-slug: how-to-remove-the-samsung-portable-ssd-daemon/
+slug: how-to-remove-the-samsung-portable-ssd-daemon
 tags:
 - samsung
 - ssd

@@ -1,12 +1,10 @@
 ---
-author: Jan
 categories:
 - Music
 date: '2012-08-18'
 format: audio
-guid: http://beta.janw.io/a-spotify-playlist-for-your-workout/
 id: 59
-slug: a-spotify-playlist-for-your-workout/
+slug: a-spotify-playlist-for-your-workout
 tags:
 - playlist
 - spotify

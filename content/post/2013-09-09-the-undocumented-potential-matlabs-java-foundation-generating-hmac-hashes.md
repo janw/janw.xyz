@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Tutorials
 date: '2013-09-09'
-guid: http://beta.janw.io/the-undocumented-potential-matlabs-java-foundation-generating-hmac-hashes/
 id: 54
-slug: the-undocumented-potential-matlabs-java-foundation-generating-hmac-hashes/
+slug: the-undocumented-potential-matlabs-java-foundation-generating-hmac-hashes
 tags:
 - coding
 - hashing

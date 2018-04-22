@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Tutorials
 date: '2013-11-13'
-guid: http://beta.janw.io/how-to-install-bugzilla-on-an-uberspace/
 id: 53
-slug: how-to-install-bugzilla-on-an-uberspace/
+slug: how-to-install-bugzilla-on-an-uberspace
 tags:
 - bugtracking
 - self-hosting

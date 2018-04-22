@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Op-Ed
 date: '2012-08-29'
-guid: http://beta.janw.io/getting-hacked-or-your-security-is-up-to-you/
 id: 57
-slug: getting-hacked-or-your-security-is-up-to-you/
+slug: getting-hacked-or-your-security-is-up-to-you
 tags:
 - logins
 - passwords

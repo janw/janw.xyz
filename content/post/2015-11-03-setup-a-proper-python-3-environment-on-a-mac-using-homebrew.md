@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Tutorials
 date: '2015-11-03'
-guid: http://beta.janw.io/setup-a-proper-python-3-environment-on-a-mac-using-homebrew/
 id: 44
-slug: setup-a-proper-python-3-environment-on-a-mac-using-homebrew/
+slug: setup-a-proper-python-3-environment-on-a-mac-using-homebrew
 tags:
 - brew
 - mac

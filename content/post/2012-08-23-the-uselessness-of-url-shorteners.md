@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Op-Ed
 date: '2012-08-23'
-guid: http://beta.janw.io/the-uselessness-of-url-shorteners/
 id: 58
-slug: the-uselessness-of-url-shorteners/
+slug: the-uselessness-of-url-shorteners
 tags:
 - links
 - twitter

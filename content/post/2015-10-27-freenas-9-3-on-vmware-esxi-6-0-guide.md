@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Uncategorized
 date: '2015-10-27'
-guid: http://beta.janw.io/freenas-9-3-on-vmware-esxi-6-0-guide/
 id: 46
-slug: freenas-9-3-on-vmware-esxi-6-0-guide/
+slug: freenas-9-3-on-vmware-esxi-6-0-guide
 tags:
 - esxi
 - freenas

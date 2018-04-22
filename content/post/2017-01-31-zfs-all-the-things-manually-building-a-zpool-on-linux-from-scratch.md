@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Tutorials
 date: '2017-01-31'
-guid: http://beta.janw.io/zfs-all-the-things-manually-building-a-zpool-on-linux-from-scratch/
 id: 33
-slug: zfs-all-the-things-manually-building-a-zpool-on-linux-from-scratch/
+slug: zfs-all-the-things-manually-building-a-zpool-on-linux-from-scratch
 tags:
 - freebsd
 - ubuntu

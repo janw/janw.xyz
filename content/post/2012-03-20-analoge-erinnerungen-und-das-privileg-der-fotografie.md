@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Personal
 date: '2012-03-20'
-guid: http://beta.janw.io/analoge-erinnerungen-und-das-privileg-der-fotografie/
 id: 66
-slug: analoge-erinnerungen-und-das-privileg-der-fotografie/
+slug: analoge-erinnerungen-und-das-privileg-der-fotografie
 tags:
 - archiving
 - photography

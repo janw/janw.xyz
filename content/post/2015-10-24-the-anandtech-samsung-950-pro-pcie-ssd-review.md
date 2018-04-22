@@ -1,12 +1,10 @@
 ---
-author: Jan
 categories:
 - Uncategorized
 date: '2015-10-24'
 format: link
-guid: http://beta.janw.io/the-anandtech-samsung-950-pro-pcie-ssd-review/
 id: 48
-slug: the-anandtech-samsung-950-pro-pcie-ssd-review/
+slug: the-anandtech-samsung-950-pro-pcie-ssd-review
 tags:
 - benchmark
 - review

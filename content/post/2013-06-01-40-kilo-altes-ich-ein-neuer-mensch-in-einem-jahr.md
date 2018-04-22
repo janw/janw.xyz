@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Uncategorized
 date: '2013-06-01'
-guid: http://beta.janw.io/40-kilo-altes-ich-ein-neuer-mensch-in-einem-jahr/
 id: 55
-slug: 40-kilo-altes-ich-ein-neuer-mensch-in-einem-jahr/
+slug: 40-kilo-altes-ich-ein-neuer-mensch-in-einem-jahr
 tags:
 - lifestyle
 - self-improvement

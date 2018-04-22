@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Op-Ed
 date: '2012-01-29'
-guid: http://beta.janw.io/die-letzte-daseinsberechtigung-der-cd/
 id: 69
-slug: die-letzte-daseinsberechtigung-der-cd/
+slug: die-letzte-daseinsberechtigung-der-cd
 tags:
 - audio
 - audio compression

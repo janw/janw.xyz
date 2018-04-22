@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Technology
 date: '2016-01-28'
-guid: http://beta.janw.io/getting-to-know-android-part-1/
 id: 43
-slug: getting-to-know-android-part-1/
+slug: getting-to-know-android-part-1
 tags:
 - android
 - ios

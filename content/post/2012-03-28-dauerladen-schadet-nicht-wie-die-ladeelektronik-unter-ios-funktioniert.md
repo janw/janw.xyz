@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Technology
 date: '2012-03-28'
-guid: http://beta.janw.io/dauerladen-schadet-nicht-wie-die-ladeelektronik-unter-ios-funktioniert/
 id: 65
-slug: dauerladen-schadet-nicht-wie-die-ladeelektronik-unter-ios-funktioniert/
+slug: dauerladen-schadet-nicht-wie-die-ladeelektronik-unter-ios-funktioniert
 tags:
 - apple
 - batteries

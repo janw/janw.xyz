@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Tinkering
 date: '2017-07-28'
-guid: http://beta.janw.io/figuring-out-the-whatapp-database-format/
 id: 32
-slug: figuring-out-the-whatapp-database-format/
+slug: figuring-out-the-whatapp-database-format
 tags:
 - blobstorage
 - database

@@ -1,12 +1,10 @@
 ---
-author: Jan
 categories:
 - Music
 date: '2012-08-17'
 format: audio
-guid: http://beta.janw.io/aus-dem-studio-i-am-not-afraid/
 id: 60
-slug: aus-dem-studio-i-am-not-afraid/
+slug: aus-dem-studio-i-am-not-afraid
 tags:
 - music
 - self-composed

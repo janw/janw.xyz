@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Uncategorized
 date: '2016-02-18'
-guid: http://beta.janw.io/my-next-computer-probably-wont-be-a-mac-again/
 id: 42
-slug: my-next-computer-probably-wont-be-a-mac-again/
+slug: my-next-computer-probably-wont-be-a-mac-again
 tags:
 - apple
 - lenovo

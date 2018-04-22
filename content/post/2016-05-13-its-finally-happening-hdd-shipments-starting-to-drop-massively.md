@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Uncategorized
 date: '2016-05-13'
-guid: http://beta.janw.io/its-finally-happening-hdd-shipments-starting-to-drop-massively/
 id: 38
-slug: its-finally-happening-hdd-shipments-starting-to-drop-massively/
+slug: its-finally-happening-hdd-shipments-starting-to-drop-massively
 tags:
 - hdd
 - market

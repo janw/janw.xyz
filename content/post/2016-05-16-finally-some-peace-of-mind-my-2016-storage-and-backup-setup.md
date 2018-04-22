@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Tutorials
 date: '2016-05-16'
-guid: http://beta.janw.io/finally-some-peace-of-mind-my-2016-storage-and-backup-setup/
 id: 37
-slug: finally-some-peace-of-mind-my-2016-storage-and-backup-setup/
+slug: finally-some-peace-of-mind-my-2016-storage-and-backup-setup
 tags:
 - archiving
 - backups

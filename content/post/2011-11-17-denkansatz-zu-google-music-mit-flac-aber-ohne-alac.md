@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Op-Ed
 date: '2011-11-17'
-guid: http://beta.janw.io/denkansatz-zu-google-music-mit-flac-aber-ohne-alac/
 id: 72
-slug: denkansatz-zu-google-music-mit-flac-aber-ohne-alac/
+slug: denkansatz-zu-google-music-mit-flac-aber-ohne-alac
 tags:
 - audio
 - lossless audio

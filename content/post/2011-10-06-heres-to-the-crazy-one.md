@@ -1,11 +1,9 @@
 ---
-author: Jan
 categories:
 - Personal
 date: '2011-10-06'
-guid: http://beta.janw.io/heres-to-the-crazy-one/
 id: 73
-slug: heres-to-the-crazy-one/
+slug: heres-to-the-crazy-one
 tags:
 - apple
 - obituary
