@@ -3,7 +3,7 @@ languageCode: en-us
 title: Janw.xyz
 description:
 theme: janwxyz
-paginate: 1
+paginate: 5
 
 params:
   author: Jan Willhaus
