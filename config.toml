@@ -1,0 +1,5 @@
+baseURL = "https://janw.xyz/"
+languageCode = "en-us"
+title = "Janw.xyz"
+description = "Jack of all trades and a master of some"
+theme = "janwxyz"
