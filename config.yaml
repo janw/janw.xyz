@@ -8,3 +8,8 @@ paginate: 5
 params:
   author: Jan Willhaus
   description: Jack of all trades and a master of some
+
+taxonomies:
+  tag: ~
+  group: ~
+  category: ~
