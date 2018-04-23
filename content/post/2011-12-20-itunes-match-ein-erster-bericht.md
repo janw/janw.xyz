@@ -12,7 +12,7 @@ title: iTunes Match – Ein erster Bericht
 
 ---
 
-Vor einigen Tagen hat Apple sein de facto Konkurrenzprodukt zu Google Music vorgestellt und nachdem ich mir auch schon [Google Music vor ein paar Wochen ansah](http://janwillhaus.de/blog/denkansatz-zu-google-music-mit-flac-aber-ohne-alac "Denkansatz zu Google Music mit FLAC aber ohne ALAC") muss nun auch Apples Version der „Music in der Cloud“ her. Das Konzept ist dabei ein völlig anderes, denn statt die komplette Musiksammlung hochzuladen (soweit möglich), verwendet iTunes Match überall wo es geht, die Songs aus dem iTunes Store und lädt nur die nicht dort gefundenen Musiktitel des Nutzers hoch. Dafür kostet das Abonnement für iTunes Match auch 25€ im Jahr.
+Vor einigen Tagen hat Apple sein de facto Konkurrenzprodukt zu Google Music vorgestellt und nachdem ich mir auch schon [Google Music vor ein paar Wochen ansah]({{< relref "2011-11-17-denkansatz-zu-google-music-mit-flac-aber-ohne-alac.md" >}}) muss nun auch Apples Version der „Music in der Cloud“ her. Das Konzept ist dabei ein völlig anderes, denn statt die komplette Musiksammlung hochzuladen (soweit möglich), verwendet iTunes Match überall wo es geht, die Songs aus dem iTunes Store und lädt nur die nicht dort gefundenen Musiktitel des Nutzers hoch. Dafür kostet das Abonnement für iTunes Match auch 25€ im Jahr.
 
 <!--more-->
 

@@ -17,9 +17,7 @@ I&#8217;m currently fiddling with the WhatsApp `ChatStorage.sqlite` database tha
 
 I already got pretty far (massively improving my SQL skills in the process), but of course I want to add as much context to the messages as possible. WhatsApp saves the metadata for media items (namely links, replies, image thumbnails) for messages in the `ZWAMEDIAITEM.ZMETADATA` column of the database. On iOS this column contains blobs of binary property lists, that can be inspected on MacOS using the `plutil` tool. Still there is some figuring-out for me to do, and I&#8217;d like your help for that.
 
-<!--more--><figure style="width: 658px" class="wp-caption alignnone">
-
-<img src="https://i1.wp.com/blerch.janw.io/images/plutil-output.png?resize=525%2C440&#038;quality=100&#038;strip=all" width="525" height="440" class="size-medium" data-recalc-dims="1" /><figcaption class="wp-caption-text">Output of macOS&#8217; plutil</figcaption></figure>
+<!--more-->{{< fig src="/media/plutil-output.png" title="Output of macOS' plutil" >}}
 
 Among other things, it contains the `senderJID` (JID standing in for Jabber ID since WhatsApp was built on Jabber) of the referenced metadata. The thing that I am really after is the `quotedMessageData` field. It contains a lot more data. For replies for example it contains the text of the message your reply was referring to. When the metadata contained a link, and WhatsApp managed to scrape a link preview of the web, the field contains all stuff you would need to rebuild that preview: the link itself, the contents of the HTML `<title />` tag, and a tiny thumbnail image.
 
@@ -37,4 +35,4 @@ It&#8217;s all clearly visible when viewed in a hex editor, the text, the link, 
   * `0x22` followed by `0x20` (doublequotes followed by a space) seems to have a special meaning as well. Maybe it ends a section?
   * Now, that I am seeing all this in one place, I realize that looking at bytes might be a bit to coarse. Maybe it would help to check out the nibbles instead?
 
-That&#8217;s all I got so far. Maybe someone else wants to jump in and, help me? I prepared a few binaries, redacted personal info from them and uploaded them [here]({filename}/downloads/whatsapp-blobs.zip). Take a stab at them and message me at <uleb128@janw.io>. I&#8217;ll update this post, as soon as I get new info.
+That&#8217;s all I got so far. Maybe someone else wants to jump in and, help me? I prepared a few binaries, redacted personal info from them and uploaded them [here](/media/whatsapp-blobs.zip). Take a stab at them and message me at <uleb128@janw.io>. I&#8217;ll update this post, as soon as I get new info.

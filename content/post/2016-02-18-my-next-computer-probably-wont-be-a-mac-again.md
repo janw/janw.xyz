@@ -14,7 +14,7 @@ title: My next computer probably won’t be a Mac again
 
 ---
 
-It&#8217;s been about a month now, since [I ranted on the current generation of iPhones]({filename}2016-01-27_getting-to-know-android.md) and how I&#8217;d like to try something new with Android. Therefore another rant has to happen and the target is the same as before.
+It&#8217;s been about a month now, since [I ranted on the current generation of iPhones]({{< relref "2016-01-28-getting-to-know-android-part-1.md" >}}) and how I&#8217;d like to try something new with Android. Therefore another rant has to happen and the target is the same as before.
 
 I don&#8217;t do this intentionally. It&#8217;s just that after more than five years in the Apple ecosystem the honey moon phase is finally over, and I want to regain some of the freedom that you give up with it. I&#8217;m not going to argue about the good of hardware quality or the bad of software quality. [Others](https://marco.org/2015/01/04/apple-lost-functional-high-ground) [have](http://www.theverge.com/2016/2/3/10900612/walt-mossberg-apple-iphone-ios-mac-osx-app-problems) [done](http://kickingbear.com/blog/archives/504) [that](http://www.mcelhearn.com/apples-software-problems-are-eroding-confidence-in-the-brand/) for me. This is about a student (me, Jan, hey there) looking back on four years of a first degree course and contemplating if his current machine is still up for the task of completing a second degree course and what it would mean to switch devices mid-courses.
 

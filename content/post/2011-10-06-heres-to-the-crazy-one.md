@@ -28,7 +28,7 @@ Sein Gespür für Design, Usability und vor allem das, was wegzulassen ist, war
 
 Einer der ergreifendsten Auftritte Jobs&#8217; ist für mich sein Commencement Speech vor den Graduierenden der Stanford Univerity 2005. Sie gibt einen tiefen Blick in sein persönliches Leben und auf seine Sicht der Dinge und ist es wert, von jedem einmal gesehen zu werden.
 
-<span class="embed-youtube" style="text-align:center; display: block;"></span>
+{{< youtube UF8uR6Z6KLc >}}
 
 Am 5. Oktober 2011 ist mit Steve Jobs einer der größten Männer dieses und des letzten Jahrhunderts von uns gegangen und es erfüllt mich mit tiefer Trauer, die für viele wohlmöglich nicht nachvollziehbar, für mich aber die logische Konsequenz vieler Jahre als zufriedener Kunde und Bewunderer eines Visionärs ist.
 

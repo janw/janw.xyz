@@ -24,19 +24,19 @@ Und hinter all dem steckt so viel Wahrheit. Auch mir ist das Genre ganz egal. We
 Da fällt mir auch ein Beispiel ein. Als die Black Eyed Peas 2003 mit dem Album „Elephunk“ im Mainstream angekommen waren, hatten Text und Musik noch viel Potenzial und vor allem Inhalt. Mit gesellschaftskritischem Material wie „Where is the love“ schafften es die Peas 2003 bestens in die Charts und brachten gleichzeitig noch eine Botschaft mit.
 
 > What&#8217;s wrong with the world mama
-
+>
 > People living like they ain&#8217;t got no mama
-
+>
 > I think the whole world&#8217;s addicted to the drama
-
+>
 > Only attracted to things that will bring you trauma
-
+>
 > Over seas, yeah, we tryin&#8217; to stop terrorism
-
+>
 > But we still got terrorists here living in the USA
-
+>
 > The big CIA, the Bloods, and the Crips and the KKK
-
+>
 > (…)
 >
 > — aus „Where is the love“
@@ -44,15 +44,15 @@ Da fällt mir auch ein Beispiel ein. Als die Black Eyed Peas 2003 mit dem Album 
 Heute ist nichts mehr mit Gesellschaftskritik oder annähernd hörenswerter Botschaft. „Only attracted to things that will bring you trauma“? Die Black Eyed Peas haben sich selbst zum Trauma gemacht. Oder eben machen lassen. Sie fallen jetzt in eine Rolle. Die Rolle der seichten Unterhaltungsmacher. Ohne Hintergrund. Dafür mit coolem Image und Lifestyle.
 
 > I gotta feeling
-
+>
 > That tonight&#8217;s gonna be a good night
-
+>
 > That tonight&#8217;s gonna be a good night
-
+>
 > That tonight&#8217;s gonna be a good, good night
 >
 > — aus „I gotta feeling“
 
 Und weil ich mir all das Image zu ignorieren versuche und nur die Musik wahrnehmen will, wirken Songs wie „I gotta feeling“ gerade zu mickrig vor denen der frühen Black Eyed Peas. Das ist schade, denn ich bin sicher, dass wir es hier mit ausgezeichneten Musikern zu tun haben.
 
-**Doch mich interessiert viel mehr: Wie viel gebt ihr auf das Image eines Musikers oder einer Band? Was wäre nach Weltauffassung der „cool Kids“ in eurer Sammlung ein echt peinliches Stück und was gefällt euch trotzdem daran? Für mich ist es <a href="http://www.amazon.de/gp/product/B0017YZII2/ref=as_li_ss_tl?ie=UTF8&#038;tag=janwillhaus-21&#038;linkCode=as2&#038;camp=1638&#038;creative=19454&#038;creativeASIN=B0017YZII2" target="_blank">Sara Bareilles mit „Little Voice“</a>. Das passt sicher gar nicht in das Bild eines musikhörenden Mannes, aber trotzdem ist das eine hervorragende Pop-Platte, gut produziert und mit viel Klavier, was mir immer gut gefällt.**
+Doch mich interessiert viel mehr: Wie viel gebt ihr auf das Image eines Musikers oder einer Band? Was wäre nach Weltauffassung der „cool Kids“ in eurer Sammlung ein echt peinliches Stück und was gefällt euch trotzdem daran? Für mich ist es <a href="http://www.amazon.de/gp/product/B0017YZII2/?tag=janwillhaus-21" target="_blank">Sara Bareilles mit „Little Voice“</a>. Das passt sicher gar nicht in das Bild eines musikhörenden Mannes, aber trotzdem ist das eine hervorragende Pop-Platte, gut produziert und mit viel Klavier, was mir immer gut gefällt.

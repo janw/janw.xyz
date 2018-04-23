@@ -19,8 +19,8 @@ So [Matrix](https://matrix.org/) is the hot new shit for federated ([end-to-end 
 
 Some caveats apply though:
 
-  * An Uberspace account is required for this to work (d&#8217;uh.)
-  * You should have a valid [(Let&#8217;s Encrypt) TLS certificate](https://wiki.uberspace.de/webserver:https#let_s-encrypt-zertifikate) for the server&#8217;s domain
+  * An Uberspace account is required for this to work (d'uh.)
+  * You should have a valid [(Let's Encrypt) TLS certificate](https://wiki.uberspace.de/webserver:https#let_s-encrypt-zertifikate) for the server's domain
   * Your domain registrar should allow the addition of SRV records to your DNS zone ([Gandi](https://www.gandi.net/) does)
 
 ### Making your life easier – one variable at a time
@@ -32,7 +32,7 @@ Writing this tutorial I used the environment variables `$USER`, `$HOME` (which a
 
 ### Setting up the PostgreSQL
 
-We&#8217;re starting off with installing PostgreSQL. By default Synapse uses an sqlite database, which is not really advisable &#8220;in production&#8221;. If your server is going to host more than just a few users sqlite will become sluggish really fast. So I suggest you use Postgres instead. Another caveat: PostgreSQL is still in BETA at Uberspace and has to be set up specifically to run on a per-user basis. I will use it anyway – because be bold! And the Uberspace guys even greated a handy little installer. Let&#8217;s fire it up:
+We're starting off with installing PostgreSQL. By default Synapse uses an sqlite database, which is not really advisable &#8220;in production&#8221;. If your server is going to host more than just a few users sqlite will become sluggish really fast. So I suggest you use Postgres instead. Another caveat: PostgreSQL is still in BETA at Uberspace and has to be set up specifically to run on a per-user basis. I will use it anyway – because be bold! And the Uberspace guys even greated a handy little installer. Let's fire it up:
 
     uberspace-setup-postgresql
 
@@ -45,9 +45,9 @@ We&#8217;re starting off with installing PostgreSQL. By default Synapse uses an 
     # ...
 
 
-A little side note here: If your account has not been prepared to run your own services yet: doesn&#8217;t matter. `uberspace-setup-postgresql` will do the necessary work for you, and install the PostgreSQL service in your `~/service/` directory. Postgres and any future [services can now be started/stopped/restarted using the `svc` command](https://wiki.uberspace.de/system:daemontools#wenn_der_daemon_laeuft).
+A little side note here: If your account has not been prepared to run your own services yet: doesn't matter. `uberspace-setup-postgresql` will do the necessary work for you, and install the PostgreSQL service in your `~/service/` directory. Postgres and any future [services can now be started/stopped/restarted using the `svc` command](https://wiki.uberspace.de/system:daemontools#wenn_der_daemon_laeuft).
 
-Postgres inserts itself into the `PATH` environment variable to expose the functions `createuser`, and `createdb` on the command line. For the new PATH to become active, it&#8217;s easiest to just log out and log back in to your SSH connection again. Without that, the next steps won&#8217;t complete properly.
+Postgres inserts itself into the `PATH` environment variable to expose the functions `createuser`, and `createdb` on the command line. For the new PATH to become active, it's easiest to just log out and log back in to your SSH connection again. Without that, the next steps won't complete properly.
 
 To give Synapse its own database later, we create a separate user for Postgres. In [alignment with the official Synapse guide](https://github.com/matrix-org/synapse/blob/master/docs/postgres.rst) I chose `synapse_user` as the username. Give the user a proper password as well, and remember that for the config.
 
@@ -57,7 +57,7 @@ To give Synapse its own database later, we create a separate user for Postgres. 
     # Enter it again:
 
 
-Let&#8217;s also create an adjacent database that is owned by our new synapse_user:
+Let's also create an adjacent database that is owned by our new synapse_user:
 
     createdb --encoding=UTF8 \
         --lc-collate=C \
@@ -76,7 +76,7 @@ The version of CentOS installed on most Uberspaces is shipping with a rather old
 
 ### Basic setup
 
-Next, let&#8217;s take care of the basic Synapse installation itself. Some of the lines are directly copied from the [official Readme](https://github.com/matrix-org/synapse#synapse-installation) – but we are getting a little bit funky. Also note that a &#8220;mint&#8221; Uberspace account might not have `virtualenv` installed so we do that first. Then create a virtualenv with Python 2.7, and activate it. Upgrade setuptools, install `psycopg2` (for postgreSQL database support), and install Synapse from tarball:
+Next, let's take care of the basic Synapse installation itself. Some of the lines are directly copied from the [official Readme](https://github.com/matrix-org/synapse#synapse-installation) – but we are getting a little bit funky. Also note that a &#8220;mint&#8221; Uberspace account might not have `virtualenv` installed so we do that first. Then create a virtualenv with Python 2.7, and activate it. Upgrade setuptools, install `psycopg2` (for postgreSQL database support), and install Synapse from tarball:
 
     pip install virtualenv
     virtualenv -p python2.7 ~/.synapse
@@ -109,11 +109,11 @@ Now we add our first modifications to the config file. If you used the above com
             cp_max: 10
 
 
-Make sure to replace `<my super secure password>` with the password you entered for synapse_user, and swap `$USER` for your Uberspace username. Don&#8217;t worry that there is no real hostname in `host:`: The default Uberspace Postgres configuration does not listen on a Unix Domain socket, but on a file socket which resids in `~/tmp/`.
+Make sure to replace `<my super secure password>` with the password you entered for synapse_user, and swap `$USER` for your Uberspace username. Don't worry that there is no real hostname in `host:`: The default Uberspace Postgres configuration does not listen on a Unix Domain socket, but on a file socket which resids in `~/tmp/`.
 
 ### Adding a properly signed TLS certificate
 
-[Adding a Let&#8217;s Encrypt TLS certificate on Uberspace](https://wiki.uberspace.de/webserver:https#let_s-encrypt-zertifikate) is very well documented in the official Wiki, and I&#8217;ll assume you have a properly configured TLS certificate for the domain name you&#8217;re setting Synapse up on. What we need from that setup are the paths to the `privkey.pem`, and `cert.pem`, usually those reside here:
+[Adding a Let's Encrypt TLS certificate on Uberspace](https://wiki.uberspace.de/webserver:https#let_s-encrypt-zertifikate) is very well documented in the official Wiki, and I'll assume you have a properly configured TLS certificate for the domain name you're setting Synapse up on. What we need from that setup are the paths to the `privkey.pem`, and `cert.pem`, usually those reside here:
 
     /home/$USER/.config/letsencrypt/live/<domainname>/cert.pem
     /home/$USER/.config/letsencrypt/live/<domainname>/privkey.pem
@@ -129,7 +129,7 @@ Again it goes without saying, that you have to swap `$USER` for your Uberspace u
 
 ### Setting up custom ports
 
-With TLS prepared, we move on to ports. Uberspace is a shared hosting provider, so the default ports Matrix uses (8008, and 8448) are not available to us mere mortals. That&#8217;s not a problem for Matrix though, since they properly employ an (RFC2782) DNS SRV entry, to determine the correct port (and hostname) on which a server is listening for an entire domain. We start off with poking a hole through the firewall on a custom port, given by a handy script provided by the Uberspace guys:
+With TLS prepared, we move on to ports. Uberspace is a shared hosting provider, so the default ports Matrix uses (8008, and 8448) are not available to us mere mortals. That's not a problem for Matrix though, since they properly employ an (RFC2782) DNS SRV entry, to determine the correct port (and hostname) on which a server is listening for an entire domain. We start off with poking a hole through the firewall on a custom port, given by a handy script provided by the Uberspace guys:
 
     uberspace-add-port -p tcp -f
 
@@ -138,7 +138,7 @@ With TLS prepared, we move on to ports. Uberspace is a shared hosting provider, 
 
 Cool. In this example I got port 64949 opened in the firewall, so we can handle direct (mostly server-to-server / federation) connections through that.
 
-For client side access it is easier to handle connections via the default HTTPS port (443), but of course we can not hog that for ourselves as well. Therefore we employ our webserver to act as a reverse proxy on a specific URL. Think of a port number between 61000 and 65535, (I&#8217;ll take 64950 here) and check with `netstat -tulpen | grep 64950` that it is not already occupied by another user. If the command returns silently, you may use this port to configure the proxy.
+For client side access it is easier to handle connections via the default HTTPS port (443), but of course we can not hog that for ourselves as well. Therefore we employ our webserver to act as a reverse proxy on a specific URL. Think of a port number between 61000 and 65535, (I'll take 64950 here) and check with `netstat -tulpen | grep 64950` that it is not already occupied by another user. If the command returns silently, you may use this port to configure the proxy.
 
 With these two ports in mind we open up the config again, and look for `listeners:` section. In the default config the first one is the &#8220;Main **HTTPS** listener&#8221;, which has to be equipped with `port: 64949` (the first one from the `uberspace-add-port` command).
 
@@ -146,7 +146,7 @@ The second one is the &#8220;Unsecure **HTTP** listener&#8221;. Here you add the
 
 ### Reverse-proxying the client front end
 
-Next up is the proxy. If you don&#8217;t already host a site on your domain name, create a folder in `/var/www/virtual/$USER/` that matches your domain name:
+Next up is the proxy. If you don't already host a site on your domain name, create a folder in `/var/www/virtual/$USER/` that matches your domain name:
 
     mkdir /var/www/virtual/$USER/$SERVER_NAME/
     cd /var/www/virtual/$USER/$SERVER_NAME/
@@ -171,7 +171,7 @@ By default Synapse is started using `synctl` which is installed in the Python vi
     __EOF__
 
 
-Don&#8217;t forget to mark it as executable: `chmod +x ~/bin/synapse`, and use the `uberspace-setup-service` tool to create a proper service.
+Don't forget to mark it as executable: `chmod +x ~/bin/synapse`, and use the `uberspace-setup-service` tool to create a proper service.
 
     uberspace-setup-service synapse ~/bin/synapse
 
@@ -186,15 +186,15 @@ This will create all directories and files necessary to run Synapse as a service
 
 ### Setting up a DNS SRV record
 
-The final step is rather hard to explain universally, since it depends a lot on your domain registrar&#8217;s configuration interface. But I assume that most registrars will have the necessary steps documented in their help sections, or their support people will be happy to help you.
+The final step is rather hard to explain universally, since it depends a lot on your domain registrar's configuration interface. But I assume that most registrars will have the necessary steps documented in their help sections, or their support people will be happy to help you.
 
-Those of you registering with [Gandi](https://gandi.net) – you&#8217;re in luck. The documentation on [how to set up an SRV record at Gandi](https://wiki.gandi.net/en/dns/zone/srv-record) is quite helpful: Using the &#8220;normal&#8221; zone configuration interface, you&#8217;ll first have to create a new version of the zone that contains `$SERVER_NAME`&#8216;s entries, and add a new record of type `SRV` and name `_matrix._tcp`:<figure id="attachment_259" style="width: 740px" class="wp-caption alignnone">
+Those of you registering with [Gandi](https://gandi.net) – you're in luck. The documentation on [how to set up an SRV record at Gandi](https://wiki.gandi.net/en/dns/zone/srv-record) is quite helpful: Using the &#8220;normal&#8221; zone configuration interface, you'll first have to create a new version of the zone that contains `$SERVER_NAME`'s entries, and add a new record of type `SRV` and name `_matrix._tcp`:<figure id="attachment_259" style="width: 740px" class="wp-caption alignnone">
 
 <img src="https://i2.wp.com/janw.io/wp-content/uploads/2016/12/matrix-srv-record.png?resize=525%2C194&#038;quality=100&#038;strip=all&#038;ssl=1" alt="" width="525" height="194" class="size-full wp-image-259" srcset="https://i0.wp.com/janw.xyz/wp-content/uploads/2016/12/matrix-srv-record.png?w=740&quality=100&strip=all&ssl=1 740w, https://i0.wp.com/janw.xyz/wp-content/uploads/2016/12/matrix-srv-record.png?resize=300%2C111&quality=100&strip=all&ssl=1 300w" sizes="(max-width: 706px) 89vw, (max-width: 767px) 82vw, 740px" data-recalc-dims="1" /><figcaption class="wp-caption-text">Screenshot of the &#8220;add a record&#8221; interface of Gandi.net for setting up a \_matrix.\_tcp SRV record</figcaption></figure>
 
 The value field contains &#8220;priority, weight. port, and target, ending in a dot&#8221;. Priority and weight are of no concern to us, so I chose default values ``, and `5`. For the port, we enter the one opened in the firewall (`64949` in my case, and the target is our `server-name.example.` (replace with your domain name from `$SERVER_NAME` and add a dot at the end!)
 
-Upon saving the entry don&#8217;t forget to activate the new zone file to propagate the new setting to the Gandi nameservers.
+Upon saving the entry don't forget to activate the new zone file to propagate the new setting to the Gandi nameservers.
 
 Time for an extensive coffee break to wait for DNS propagation. After a while you can use the URL [`https://matrix.org/federationtester/api/report?server_name=server-name.example`](https://matrix.org/federationtester/api/report?server_name=server-name.example) to test our server. If the SRV record is working, the return should contain something like
 
@@ -215,7 +215,7 @@ Time for an extensive coffee break to wait for DNS propagation. After a while yo
 
 ### Registering a new user
 
-Btw, to create a user without enabling registration in the config file, here&#8217;s the way to do it from the command line:
+Btw, to create a user without enabling registration in the config file, here's the way to do it from the command line:
 
     source ~/.synapse/bin/activate
     register_new_matrix_user -c ~/.synapse/homeserver.yaml https://$SERVER_NAME

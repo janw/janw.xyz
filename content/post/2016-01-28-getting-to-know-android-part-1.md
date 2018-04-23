@@ -24,7 +24,7 @@ It is certainly not the &#8220;properly spec&#8217;d&#8221; kind of phone I&#821
 
 Now for a quick disclaimer: I am not trying to bash on either iOS nor Android just for the sakes of bashing. But I will not be beating around the bush to get my point across. At some time in the future someone might read this ramblings and think &#8220;that sucker just got it all wrong&#8221;. Go ahead, try to correct me. Still, my observations and opinions are my own. If you don&#8217;t like them, <strike>troll</strike> go away. This post is not about religious wars on platforms. It&#8217;s about me.<sup id="fnref-43-2"><a href="#fn-43-2" class="jetpack-footnote">2</a></sup>
 
-And by the way: this is a process. When this post goes live, it won&#8217;t be finished and concluded all the way. I plan on using the Moto G at least for a few months before a final verdict. But I&#8217;ll update this post whenever necessary. Feel free to subscribe to [this feed](feed.rss "RSS"). Or [that feed](feed.atom "Atom"). Maybe I&#8217;ll update this very post. Or I&#8217;ll split my findings into many. You&#8217;ll know it when you see it.
+And by the way: this is a process. When this post goes live, it won&#8217;t be finished and concluded all the way. I plan on using the Moto G at least for a few months before a final verdict. But I&#8217;ll update this post whenever necessary.
 
 Anyhow, let&#8217;s dig in.
 

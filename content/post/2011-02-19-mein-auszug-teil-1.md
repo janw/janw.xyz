@@ -20,7 +20,7 @@ Ab März beginne ich das zweite Fachsemester meines Hörtechnik- und Audiologies
 
 Dazu kam es dann kürzlich. Völlig überraschend flatterte ein Brief mit dem Mietvertrag ins Elternhaus, der binnen vier Tagen unterschrieben sein musste. Ein kleines Zeitfenster um sich über alles Gedanken zu machen, auch wenn nach meinem Vorsatz die Entscheidung eigentlich ja schon feststand.
 
-Meinen Wohnort um etwa 50 Kilometer zu verlagern bedeutet nun für mich, dass ich hier in der Umgebung alle Aktivitäten abbrechen muss. Das Singen im Chor, die erst kürzlich gegründete Band, … – Naja das war&#8217;s eigentlich schon. Besonders viel hält mich hier nicht mehr, denn nach dem Abitur sind viele Freunde bereits weggezogen, nur einige kehren alle paar Wochen zurück und somit sitz ich ohnehin die meiste Zeit alleine rum. Auch wenn der Chor und die neue Band zwei für mich sehr wichtige Projekte waren: Für die eigenen vier Wände bin ich gerne bereit einige Opfer zu bringen.
+Meinen Wohnort um etwa 50 Kilometer zu verlagern bedeutet nun für mich, dass ich hier in der Umgebung alle Aktivitäten abbrechen muss. Das Singen im Chor, die erst kürzlich gegründete Band, … – Naja das war es eigentlich schon. Besonders viel hält mich hier nicht mehr, denn nach dem Abitur sind viele Freunde bereits weggezogen, nur einige kehren alle paar Wochen zurück und somit sitz ich ohnehin die meiste Zeit alleine rum. Auch wenn der Chor und die neue Band zwei für mich sehr wichtige Projekte waren: Für die eigenen vier Wände bin ich gerne bereit einige Opfer zu bringen.
 
 Wie gesagt, bis vor kurzem hätte ich nicht gedacht, dass ich das mal so schreiben würde. Aber wenn erstmal die Rahmenbedingungen geschaffen sind, kann man es kaum noch erwarten, endlich den Kram in Kartons zu packen und in das eigene Reich einzuziehen. Natürlich bedeutet es auch einiges an Organisation und ich merke erst jetzt, was doch wirklich zu einem Haushalt alles dazugehört und werde wohlmöglich auch nach ein paar Wochen im Apartment noch immer merken, dass mir das ein oder andere fehlt.
 
@@ -28,4 +28,4 @@ Was mir auch (und wahrscheinlich am meisten) fehlen wird ist natürlich meine Fa
 
 Ich bin gespannt auf diesen neuen Lebensabschnitt.
 
-**Update:** [Hier habe ich _nach_ dem Umzug fortgesetzt](/mein-auszug-teil-2).
+**Update:** [Hier habe ich _nach_ dem Umzug fortgesetzt]({{< relref "2011-05-09-mein-auszug-teil-2.md" >}}).

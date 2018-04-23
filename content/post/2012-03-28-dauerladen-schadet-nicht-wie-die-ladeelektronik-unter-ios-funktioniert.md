@@ -14,7 +14,7 @@ title: Dauerladen schadet nicht – Wie die Ladeelektronik unter iOS funktionie
 
 Allzu oft habe ich schon Diskussionen darüber geführt, ob man Mac, iPod, iPhone etc. besser möglichst lange am Ladekabel hält oder es immer vollständig lädt und dann gleich wieder entlädt. Was die Geräte mit iOS betrifft gibt es dort nun Neuigkeiten, die mein eigenes Verhalten bestätigen und untermauern.
 
-Sobald ich mich zu Hause aufhalte landen MacBook und iPhone nämlich am Strom. Nur selten verwende ich auch daheim den Akku und lasse ihn stattdessen immer voll geladen. Aus technischer/physikalischer Sicht schadet dies jedoch dem verbauten Lithium-Ionen-Akku. [Zum Umgang mit Li-Ion-Akkus schreibt die Wikipedia](http://de.wikipedia.org/wiki/Lithium-Ionen-Akkumulator#Hinweise_zum_Umgang_mit_Li-Ionen-Akkus):
+Sobald ich mich zu Hause aufhalte landen MacBook und iPhone nämlich am Strom. Nur selten verwende ich auch daheim den Akku und lasse ihn stattdessen immer voll geladen. Aus technischer/physikalischer Sicht schadet dies jedoch dem verbauten Lithium-Ionen-Akku. [Zum Umgang mit Li-Ion-Akkus schreibt die Wikipedia](https://de.wikipedia.org/wiki/Lithium-Ionen-Akkumulator#Hinweise_zum_Umgang_mit_Li-Ionen-Akkus):
 
 <!--more-->
 
