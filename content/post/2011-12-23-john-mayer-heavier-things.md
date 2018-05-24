@@ -28,7 +28,7 @@ Obwohl Mayers erstes Album noch sehr deutlich im Pop-Rock/Acoustic-Pop angelegt 
 
 {{< youtube DNHJBnQTzog >}}
 
-<a title="Heavier Things: John Mayer: Amazon.de: Musik" href="http://amzn.to/2x5h1xT" target="_blank">„Heavier Things“</a> ist John Mayers zweites Album und wurde im September 2003 veröffentlicht. Es gehört wohl noch ins Pop-Rock Genre, doch das macht das Album nicht weniger interessant oder gut. Von vielen Kritikern wird es auch nach zwei weiteren Studioalben nach wie vor als Mayers bestes Werk angeführt. Dies lässt natürlich die Unvergleichbarkeit der Alben durch den großen musikalischen Wandel untereinander völlig außer Acht, hat aber trotzdem einen Funken Wahrheit an sich.
+„Heavier Things“ ist John Mayers zweites Album und wurde im September 2003 veröffentlicht. Es gehört wohl noch ins Pop-Rock Genre, doch das macht das Album nicht weniger interessant oder gut. Von vielen Kritikern wird es auch nach zwei weiteren Studioalben nach wie vor als Mayers bestes Werk angeführt. Dies lässt natürlich die Unvergleichbarkeit der Alben durch den großen musikalischen Wandel untereinander völlig außer Acht, hat aber trotzdem einen Funken Wahrheit an sich.
 
 Das Album ist mit etwa 46 Minuten und 10 Songs angenehm lang. Genau richtig für die musikalische Aufmerksamkeitsspanne. Es startet spannend und endet ruhig, geht dazwischen aber deutlich nach vorne. Und all das will ich im Folgenden genauer betrachten.
 
@@ -124,6 +124,6 @@ Nach einigen ruhigeren Tönen legt Mayer nun wieder mehr Drive an den Tag. Ein t
 
 ### 10. Wheel ★★★★★
 
-Wheel is sehr ruhig und melancholisch und hinterlässt das Album formvollendet. Ähnlich wabernde Gitarren wie schon in Clarity schließen den Kreis und nach einem tollen Hörerlebnis bleibt nun die herzliche Entlassung. Der Song hat keine großen Überraschungen zu bieten und ist trotzdem wunderbar sanft und man kann sich an vielen sanften Phrasen der Gitarre erfreuen. Sie wirken ein wenig wie improvisiert. Man stellt sich vielleicht Mayer auf der heimischen Couch vor, wie er vor sich hin klimpert (was im Übrigen gar nicht so sehr aus der Luft gegriffen ist – weite Teile des ganzen Albums wurde in seinem New Yorker Apartment aufgenommen).</ol>
+Wheel is sehr ruhig und melancholisch und hinterlässt das Album formvollendet. Ähnlich wabernde Gitarren wie schon in Clarity schließen den Kreis und nach einem tollen Hörerlebnis bleibt nun die herzliche Entlassung. Der Song hat keine großen Überraschungen zu bieten und ist trotzdem wunderbar sanft und man kann sich an vielen sanften Phrasen der Gitarre erfreuen. Sie wirken ein wenig wie improvisiert. Man stellt sich vielleicht Mayer auf der heimischen Couch vor, wie er vor sich hin klimpert (was im Übrigen gar nicht so sehr aus der Luft gegriffen ist – weite Teile des ganzen Albums wurde in seinem New Yorker Apartment aufgenommen).
 
 Insgesamt ist Heavier Things also ein Album voller Emotionen und brillant geschriebener Musik und Texte. Auch die Produktion ist hervorragend und die Songs sind allesamt ausgewogen und schön arrangiert. Wem Singer/Songwriter-Musik gefällt und wer mit teils tiefsinnigen Texten etwas anfangen kann findet hier sicher was.
