@@ -1,0 +1,18 @@
+{{ partial "head.html" . }}
+	<div class="row">
+		{{ partial "header.html" . }}
+		<div class="col-md-8">
+			<main>
+				{{ $paginator := .Paginate (where .Data.Pages.ByDate "Type" "post").Reverse }}
+				{{ range $paginator.Pages }}
+					{{ partial "summary.html" . }}
+				{{ end }}
+				{{ partial "pagination.html" . }}
+			</main>
+		</div>
+		<div class="col-md-4">
+			{{ partial "sidebar.html" . }}
+		</div>
+	</div>
+</div>
+{{ partial "footer.html" . }}

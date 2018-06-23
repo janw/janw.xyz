@@ -1,0 +1,78 @@
+
+$custom-font-path:          "../fonts/";
+@import "fonts";
+
+$font-family-sans-serif:    'Fira Sans Extra Condensed', "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family-monospace:     'Fira Mono', Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-base:          $font-family-sans-serif;
+$headings-font-family:		'Pacifico', sans-serif;
+$font-size-base:			1.15rem;
+$font-weight-normal:      	300;
+$font-weight-bold:          600;
+
+
+$primary: 	#4A849F;
+$secondary: #1B3440;
+$color-3: 	#B4D6C6;
+$color-4: 	#F5F1D5;
+$color-5: 	#F2845C;
+
+$grid-gutter-width: 55px;
+
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "grid";
+@import "type";
+@import "images";
+@import "utilities";
+
+
+html {
+	position: relative;
+	min-height: 100%;
+  	overflow-y: scroll;
+}
+
+p {
+	&.site-description {
+		font-size: 0.9rem;
+    	margin-left: 7px;
+    	color: $text-muted !important;
+	}
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	line-height: 58px;
+
+	& p {
+		margin-bottom: 0;
+	}
+}
+
+#footer-content {
+	border-top: 1px solid $primary;
+}
+
+body {
+	margin-bottom: 60px !important;
+	margin-top: 60px !important;
+
+	&> .container {
+		margin-bottom: 60px !important;
+	}
+}
+
+blockquote {
+  margin-bottom: $spacer;
+  font-size: $blockquote-font-size;
+  padding-left: 1rem;
+  color: $primary;
+  border-left: 2px solid $primary;
+}
