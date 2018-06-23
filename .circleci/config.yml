@@ -47,7 +47,7 @@ jobs:
           name: Deploy Over SSH
           command: |
             sudo apt install -y rsync
-            rsync -e 'ssh' -rv ~/repo/public/ $SSH_USER@$SSH_HOST:
+            rsync -e 'ssh -o "BatchMode=yes"' -rv ~/repo/public/ $SSH_USER@$SSH_HOST:
 
       - store_artifacts:
           path: ~/repo/public
