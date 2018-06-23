@@ -1,0 +1,32 @@
+{
+  "name": "Janw.xyz",
+  "version": "1.0.0",
+  "description": "Hugo-built static site for janw.xyz.",
+  "homepage": "https://janw.xyz",
+  "private": true,
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp build && hugo",
+    "create": "hugo new",
+    "start": "concurrently --kill-others \"gulp watch\" \"hugo serve -w\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/janw/janw.xyz.git"
+  },
+  "keywords": [
+    "gohugo",
+    "static site",
+    "ssg"
+  ],
+  "author": "Jan Willhaus",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "^4.1.0",
+    "concurrently": "^3.6.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-sass": "^4.0.1",
+    "hugo-bin": "^0.29.0"
+  }
+}
