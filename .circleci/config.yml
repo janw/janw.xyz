@@ -31,15 +31,25 @@ jobs:
       # run tests!
       - run: npm run build
 
+      - persist_to_workspace:
+          root: ~/repo/public
+
+
   deploy:
     machine:
       enabled: true
     steps:
+      - attach_workspace:
+          at: ~/repo/public
+
       - run:
           name: Deploy Over SSH
           command: |
             sudo apt install -y rsync
-            rsync -e 'ssh' -rv public/ $SSH_USER@$SSH_HOST:$SSH_PATH
+            rsync -e 'ssh' -rv ~/repo/public/ $SSH_USER@$SSH_HOST:$SSH_PATH
+
+      - store_artifacts:
+          path: ~/repo/public
 
 workflows:
   version: 2
