@@ -1,4 +1,0 @@
-[submodule "themes/janwxyz"]
-	path = themes/janwxyz
-	url = https://github.com/janwh/janwxyz-hugo-theme.git
-	branch = master
