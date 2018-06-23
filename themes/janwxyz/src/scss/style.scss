@@ -67,6 +67,9 @@ body {
 	&> .container {
 		margin-bottom: 60px !important;
 	}
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 blockquote {
