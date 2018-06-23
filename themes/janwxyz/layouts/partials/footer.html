@@ -1,0 +1,13 @@
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div id="footer-content" class="col-md-8 text-center">
+					<small>&copy; {{ now.Year }} <a class="" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+						{{ if getenv "TRAVIS_COMMIT" }}, <a href="{{ .Site.Params.repository }}" title="Version">{{ substr (getenv "TRAVIS_COMMIT") 0 7 }}"></a>{{end}}
+					</small>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
