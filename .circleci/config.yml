@@ -32,7 +32,8 @@ jobs:
       - run: npm run build
 
       - persist_to_workspace:
-          root: ~/repo/public
+          root: ~/repo
+          paths: [public]
 
 
   deploy:
