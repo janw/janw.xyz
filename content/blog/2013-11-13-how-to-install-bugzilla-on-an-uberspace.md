@@ -3,7 +3,7 @@ categories:
 - Tutorials
 date: '2013-11-13'
 id: 53
-slug: how-to-install-bugzilla-on-an-uberspace
+slug: how-to-deploy-bugzilla-on-an-uberspace
 tags:
 - bugtracking
 - self-hosting
