@@ -6,10 +6,10 @@ INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/public
 CONFFILE=$(BASEDIR)/config.yaml
 
-SSH_HOST=janw.xyz
+SSH_HOST=box.janw.xyz
 SSH_PORT=22
-SSH_USER=willhaus
-SSH_TARGET_DIR=/var/www/virtual/willhaus/janw.xyz
+SSH_USER=jan
+SSH_TARGET_DIR=/usr/local/www/janw.xyz
 
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)
