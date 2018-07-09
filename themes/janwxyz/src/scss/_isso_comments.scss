@@ -1,0 +1,180 @@
+
+
+#isso-thread {
+    margin-top: $vertical-spacing;
+    margin-bottom: ($vertical-spacing / 2);
+
+    & > .isso-feedlink {
+        float: right;
+        padding-left: 1em;
+    }
+    & > .isso-feedlink > a {
+        font-size: 0.8em;
+        vertical-align: bottom;
+    }
+    & .textarea {
+        min-height: 90px;
+        outline: 0;
+    }
+    & .textarea.placeholder {
+        color: #757575;
+    }
+}
+
+#isso-root {
+    & .isso-comment {
+        max-width: 68em;
+        padding-top: 0.95em;
+        margin: 0.95em auto;
+    }
+    & .preview .isso-comment {
+        padding-top: 0;
+        margin: 0;
+    }
+    & .isso-comment:not(:first-of-type),
+    .isso-follow-up .isso-comment {
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+}
+
+.isso-comment {
+    & > div.avatar {
+        display: block;
+        float: left;
+        width: 48px;
+        margin: 3px 10px 0 0;
+    }
+    & > div.avatar > svg {
+        max-width: 48px;
+        max-height: 48px;
+        @extend .rounded;
+        @extend .border;
+    }
+    & > div.text-wrapper {
+        display: block;
+    }
+    & .isso-follow-up {
+        padding-left: 60px;
+    }
+    & > div.text-wrapper > .isso-comment-header, & > div.text-wrapper > .isso-comment-footer {
+        font-size: 0.95em;
+    }
+    & > div.text-wrapper > .isso-comment-header {
+        font-size: 0.85em;
+    }
+    & > div.text-wrapper > .isso-comment-header .spacer {
+        padding: 0 6px;
+    }
+    & > div.text-wrapper > .isso-comment-header .note {
+        float: right;
+    }
+    & > div.text-wrapper > .isso-comment-header .author {
+        font-weight: bold;
+        color: #555;
+    }
+    & > div.text-wrapper > .textarea-wrapper .textarea,
+    & > div.text-wrapper > .textarea-wrapper .preview {
+        margin-top: 0.2em;
+    }
+    & > div.text-wrapper > div.text p {
+        margin-top: 0.2em;
+    }
+    & > div.text-wrapper > div.text p:last-child {
+        margin-bottom: 0.2em;
+    }
+    & > div.text-wrapper > div.textarea-wrapper .textarea,
+    & > div.text-wrapper > div.textarea-wrapper .preview {
+        width: 100%;
+        border: 1px solid #f0f0f0;
+        border-radius: 2px;
+        box-shadow: 0 0 2px #888;
+    }
+    & > div.text-wrapper > .isso-comment-footer {
+        font-size: 0.80em;
+        color: gray !important;
+        clear: left;
+    }
+    .isso-feedlink,
+    & > div.text-wrapper > .isso-comment-footer a {
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .isso-feedlink:hover,
+    & > div.text-wrapper > .isso-comment-footer a:hover {
+        color: #111111 !important;
+        text-shadow: #aaaaaa 0 0 1px !important;
+    }
+    & > div.text-wrapper > .isso-comment-footer > a {
+        position: relative;
+        top: .2em;
+    }
+    & > div.text-wrapper > .isso-comment-footer > a + a {
+        padding-left: 1em;
+    }
+    & > div.text-wrapper > .isso-comment-footer .votes {
+        color: gray;
+    }
+    & > div.text-wrapper > .isso-comment-footer .upvote svg,
+    & > div.text-wrapper > .isso-comment-footer .downvote svg {
+        position: relative;
+        top: .2em;
+    }
+    & .isso-postbox {
+        margin-top: 0.8em;
+    }
+    .isso-comment.isso-no-votes span.votes {
+        display: none;
+    }
+}
+
+.isso-postbox {
+    & > .form-wrapper .textarea,
+    & > .form-wrapper .preview {
+        @extend .form-control;
+        margin-bottom: ($vertical-spacing / 4);
+        margin-top: ($vertical-spacing / 4);
+    }
+    & > .form-wrapper > .auth-section {
+        @include media-breakpoint-up(lg) {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    & > .form-wrapper > .auth-section .input-wrapper {
+        position: relative;
+        @include media-breakpoint-up(lg) {
+            margin: 0 1rem 0 0;
+        }
+    }
+    & > .form-wrapper > .auth-section .input-wrapper input {
+        @extend .form-control;
+    }
+    & > .form-wrapper > .auth-section .post-action > input {
+        @extend .btn;
+        @extend .btn-primary;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    & > .form-wrapper .preview,
+    & > .form-wrapper input[name="edit"],
+    &.preview-mode > .form-wrapper input[name="preview"],
+    &.preview-mode > .form-wrapper .textarea {
+        display: none;
+    }
+    &.preview-mode > .form-wrapper .preview {
+        display: block;
+    }
+    &.preview-mode > .form-wrapper input[name="edit"] {
+        display: inline;
+    }
+    & > .form-wrapper .preview {
+        background-color: #f8f8f8;
+        background: repeating-linear-gradient(
+            -45deg,
+            #f8f8f8,
+            #f8f8f8 10px,
+            #fff 10px,
+            #fff 20px
+        );
+    }
+}

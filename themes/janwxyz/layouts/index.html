@@ -3,7 +3,7 @@
 		{{ partial "header.html" . }}
 		<div class="col-md-8">
 			<main>
-				{{ $paginator := .Paginate (where .Data.Pages.ByDate "Type" "post").Reverse }}
+				{{ $paginator := .Paginate (where .Data.Pages.ByDate "Type" "blog").Reverse }}
 				{{ range $paginator.Pages }}
 					{{ partial "summary.html" . }}
 				{{ end }}

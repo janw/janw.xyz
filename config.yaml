@@ -9,6 +9,7 @@ params:
   author: Jan Willhaus
   description: Jack of all trades and a master of some
   repository: https://github.com/janwh/janwh.github.io
+  isso_comments_base: https://janw.xyz/comments
 taxonomies:
   tag: ~
   group: ~

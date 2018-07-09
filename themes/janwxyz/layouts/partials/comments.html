@@ -1,0 +1,11 @@
+{{ with .Site.Params.isso_comments_base }}
+<script data-isso="{{ . }}"
+        data-isso-require-author="true"
+		data-isso-css="false"
+		data-isso-vote="false"
+        src="{{ . }}/js/embed.min.js"></script>
+<section id="isso-thread">
+	<p>Am I wrong and you know better? Please, leave a comment below!</p>
+</section>
+	<p class="text-muted text-center"><small>Comments are stored on and served from the same machine that's serving the website, and <em>not</em> shared with third parties like Disqus. There are no analytics, no tracking, no nothing — just how it should be.</small></p>
+{{ end }}
