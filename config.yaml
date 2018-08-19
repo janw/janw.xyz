@@ -8,9 +8,62 @@ paginate: 5
 params:
   author: Jan Willhaus
   description: Jack of all trades and a master of some
+  greeting: Hi there!
+  welcome: "My name is Jan,<br> I do things on the internet."
   repository: https://github.com/janwh/janwh.github.io
   isso_comments_base: https://janw.xyz/comments
+  search_base: janw.xyz
 taxonomies:
   tag: ~
   group: ~
   category: ~
+
+menu:
+  main:
+    - identifier: about
+      name: About Me
+      url: /about/
+      pre: <i class="fal fa-user-astronaut fa-lg"></i>
+      weight: -200
+    # - identifier: resume
+    #   name: Résumé
+    #   url: /resume/
+    #   pre: <i class="fal fa-address-card"></i>
+    #   weight: -100
+    - identifier: feed
+      name: Subscribe
+      title: RSS-Feed
+      url: /feed.xml
+      weight: 105
+      pre: <i class="fal fa-rss fa-lg"></i>
+    - identifier: blog
+      name: Blog
+      weight: 100
+      url: /blog/
+      pre: <i class="fal fa-pen-fancy fa-lg"></i>
+
+
+
+  profiles:
+    - name: GitHub
+      url: https://github.com/janw
+      pre: <i class="fab fa-github fa-lg"></i>
+    - name: Mastodon
+      url: https://chaos.social/@janw
+      pre: <i class="fab fa-mastodon fa-lg"></i>
+    - name: Instagram
+      url: https://instagram.com/_janwh/
+      pre: <i class="fab fa-instagram fa-lg"></i>
+    - name: Flickr
+      title: Flickr.com
+      url: https://www.flickr.com/photos/janwillhaus/
+      pre: <i class="fab fa-flickr fa-lg"></i>
+    - name: Keybase
+      url: https://keybase.io/janw
+      pre: <i class="fab fa-keybase fa-lg"></i>
+
+
+outputFormats:
+  RSS:
+    mediatype: "application/rss+xml"
+    baseName: "feed"

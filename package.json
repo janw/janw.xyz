@@ -22,11 +22,15 @@
   "author": "Jan Willhaus",
   "license": "MIT",
   "devDependencies": {
+    "@fortawesome/fontawesome-pro": "^5.2.0",
     "bootstrap": "^4.1.0",
     "concurrently": "^3.6.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-copy": "^1.1.0",
     "gulp-sass": "^4.0.1",
     "hugo-bin": "^0.29.0"
-  }
+  },
+  "dependencies": {}
 }

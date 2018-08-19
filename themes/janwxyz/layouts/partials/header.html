@@ -1,6 +1,11 @@
-<div class="col-md-5 offset-md-7 col-lg-4 offset-lg-8">
-	<header class="mb-5">
-		<a class="h1 display-3 text-primary" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-		<p class="site-description">{{ .Site.Params.description }}</p>
-	</header>
-</div>
+{{ partial "head.html" . }}
+	<div class="container-fluid">
+		<div class="row">
+			<div class="px-2 col-md-5 offset-md-7 col-lg-4 offset-lg-8 col-xl-3 offset-xl-9">
+				<header class="mb-0">
+					<a class="h1 display-3 text-primary" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+					<p class="site-description">{{ .Site.Params.description }}</p>
+				</header>
+			</div>
+
+			<div class="px-3 col-md-7 col-lg-8 col-xl-9">

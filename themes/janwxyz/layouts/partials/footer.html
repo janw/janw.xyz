@@ -1,13 +1,8 @@
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div id="footer-content" class="col-md-8 text-center">
-					<small>&copy; {{ now.Year }} <a class="" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-						{{ if getenv "TRAVIS_COMMIT" }}, <a href="{{ .Site.Params.repository }}" title="Version">{{ substr (getenv "TRAVIS_COMMIT") 0 7 }}"></a>{{end}}
-					</small>
-				</div>
-			</div>
-		</div>
-	</footer>
+  <footer class="mastfoot mt-auto px-0 px-sm-3 d-flex justify-content-between">
+    <p>Thank you for stopping by. <i class="fal fa-heart"></i></p>
+    <p><i class="fal fa-copyright"></i> {{ now.Year }} Jan Willhaus. <a href="/imprint/">Imprint</a>.</p>
+  </footer>
+</div>
+
 </body>
 </html>

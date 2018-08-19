@@ -1,9 +1,5 @@
 ---
 title: Hi, I am Jan!
-linktitle: About Me
-menu:
-  main:
-    weight: -200
 ---
 
 I am a Bachelor of Engineering in Hearing Technology and Audiology from Oldenburg, Germany. After graduating I changed careers and took a job working as a software and systems engineer at university. Besides creating custom-tailored software solutions for staff and students, I help in administering services and websites, and handle support requests. I am sort-of the go-to guy for everything tech-related.

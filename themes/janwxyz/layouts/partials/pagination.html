@@ -2,7 +2,7 @@
 {{ if .Paginator.HasPrev }}
 	<a class="mr-3" href="{{ .Paginator.Prev.URL }}">Previous Page</a>
 {{ end }}
-Page {{ .Paginator.PageNumber }}
+Page {{ .Paginator.PageNumber }} / {{ .Paginator.TotalPages }}
 {{ if .Paginator.HasNext }}
 	<a class="ml-3" href="{{ .Paginator.Next.URL }}">Next Page</a>
 {{ end }}
