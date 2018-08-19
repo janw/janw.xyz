@@ -25,8 +25,7 @@ help:
 	@echo '   make publish                        generate using production settings '
 	@echo '   make serve [PORT=8000]              serve site at http://localhost:8000'
 	@echo '   make serve-global [SERVER=0.0.0.0]  serve (as root) to $(SERVER):80    '
-	@echo '   make ssh_upload                     upload the web site via SSH        '
-	@echo '   make rsync_upload                   upload the web site via rsync+ssh  '
+	@echo '   make upload                         upload the web site via rsync+ssh  '
 	@echo '                                                                          '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
 	@echo '                                                                          '
@@ -51,12 +50,9 @@ else
 	$(HUGO) serve --bind 0.0.0.0 --port 80
 endif
 
-ssh_upload:
-	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
-
-rsync_upload:
+upload:
 	rsync -e "ssh -p $(SSH_PORT)" -P -rvzc --delete --cvs-exclude $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
-publish: clean html rsync_upload
+publish: clean html upload
 
 .PHONY: html help clean serve serve-global publish upload ssh_upload rsync_upload
