@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-icons="light/user-astronaut light/address-card light/rss light/pen-fancy brands/mastodon brands/github brands/instagram brands/flickr brands/keybase light/envelope brands/telegram brands/apple light/heart light/copyright"
+icons="light/user-astronaut light/address-card light/rss light/pen-fancy brands/mastodon brands/github brands/linkedin brands/instagram brands/flickr brands/keybase solid/envelope brands/telegram brands/apple light/heart light/copyright solid/comment-alt-dots solid/key light/comments"
 
 dest="themes/janwxyz/static/icons"
 
