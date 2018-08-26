@@ -20,6 +20,8 @@ $color-5:                   #F2845C;
 $bg-alt:                    #fefefe;
 $grid-gutter-width:         55px;
 $vertical-spacing:          60px;
+$max-width-cover:           45em;
+$max-width-fluid:           55em;
 $headings-color:            #315869;
 
 @import "functions";
@@ -56,8 +58,9 @@ p {
 }
 
 .mastfoot {
+    font-size: 0.9em;
     color: $primary;
-    padding: 5rem 0 0;
+    padding: 1rem 0 0;
     opacity: 0.25;
     transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
@@ -66,8 +69,14 @@ p {
     &:hover {
         opacity: 1.0;
     }
-    &:hover .fa-heart {
+    &:hover .heart {
         color: $red;
+    }
+
+    & .inline-svg {
+        height: 1.15rem;
+        width: 1.15rem;
+        top: 0.15rem;
     }
 }
 
@@ -75,32 +84,18 @@ p {
     @extend .text-danger;
 }
 
-
-// footer {
-//  position: absolute;
-//  bottom: 0;
-//  width: 100%;
-//  height: 60px;
-//  line-height: 58px;
-
-//  & p {
-//      margin-bottom: 0;
-//  }
-// }
-
-// #footer-content {
-//  border-top: 1px solid $primary;
-// }
-
 body {
-    margin-top: 60px;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
+.container-fluid {
+    max-width: $max-width-fluid;
+    margin-top: 60px;
+}
 .cover-container {
-    max-width: 45em;
+    max-width: $max-width-cover;
 }
 
 blockquote {
@@ -130,7 +125,12 @@ h1 a, h2 a, header a {
     }
 }
 
+.inline-svg {
+  display: inline-block;
+  height: 1.5rem;
+  width: 1.5rem;
+  top: 0.35rem;
+  position: relative;
+}
+
 @import "isso_comments";
-@import "fontawesome.scss";
-@import "light.scss";
-@import "brands.scss";

@@ -4,7 +4,7 @@
     <nav>
       <ul class="list-unstyled">
         {{ range .Site.Menus.main }}
-          <li class="mb-2"><a href="{{ .URL | relURL }}" title="{{ .Title }}">{{ .Pre }} {{ .Name }}</a></li>
+        {{ partial "sidebar_menu_li.html" . }}
         {{ end }}
       </ul>
     </nav>
@@ -12,7 +12,7 @@
     <div>
       <ul class="list-unstyled">
         {{ range .Site.Menus.profiles }}
-          <li class="mb-2"><a href="{{ .URL | relURL }}" title="{{ .Title }}">{{ .Pre }} {{ .Name }}</a></li>
+        {{ partial "sidebar_menu_li.html" . }}
         {{ end }}
       </ul>
     </div>

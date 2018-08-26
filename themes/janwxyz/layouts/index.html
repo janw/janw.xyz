@@ -1,14 +1,8 @@
 {{ partial "head.html" . }}
 
 <style>
-  body, html {
-    height: 100%;
-  }
-  body {
-    margin-top: 0;
-    margin-bottom: 0;
-    display: flex;
-  }
+  body, html { height: 100%; }
+  body { display: flex; }
 </style>
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
   <header class="masthead mb-auto"></header>
@@ -23,7 +17,7 @@
         {{ range .Site.Menus.main }}
           <li class="list-inline-item">
             <a href="{{ .URL | relURL }}" title="{{ .Title }}">
-              {{ .Pre }}
+              {{ partial "fontawesome.html" .Pre }}
               {{ .Name }}
             </a>
           </li>
@@ -38,14 +32,11 @@
       {{ range .Site.Menus.profiles }}
         <li class="list-inline-item">
           <a href="{{ .URL | relURL }}" title="{{ .Title }}">
-            {{ .Pre }}
+            {{ partial "fontawesome.html" .Pre }}
             {{ .Name }}
           </a>
         </li>
       {{ end }}
     </ul>
-
-
-
   </main>
 {{ partial "footer.html" . }}
