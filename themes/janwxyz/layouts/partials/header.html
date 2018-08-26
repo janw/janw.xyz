@@ -1,11 +1,25 @@
-{{ partial "head.html" . }}
-	<div class="container-fluid">
-		<div class="row">
-			<div class="px-2 col-md-5 offset-md-7 col-lg-4 offset-lg-8 col-xl-3 offset-xl-9">
-				<header class="mb-0">
-					<a class="h1 display-3 text-primary" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-					<p class="site-description">{{ .Site.Params.description }}</p>
-				</header>
-			</div>
+<header>
+  <a href="{{ .Site.BaseURL }}">
+    {{- $fname:=print "themes/janwxyz/static/icons/janwxyz.svg" -}}
+    {{- $path:="<path" -}}
+    {{- $fill:="<path fill=\"currentColor\"" -}}
+    {{ replace (readFile $fname) $path $fill | safeHTML }}
+  </a>
+</header>
 
-			<div class="px-3 col-md-7 col-lg-8 col-xl-9">
+<aside class="d-none d-md-block">
+  <h5 class="mb-3">Here</h5>
+  <nav>
+    <ul class="list-unstyled">
+      {{ range .Site.Menus.main }}
+      {{ partial "sidebar_menu_li.html" . }}
+      {{ end }}
+    </ul>
+  </nav>
+  <h5 class="mt-5 mb-3">Elsewhere</h5>
+  <ul class="list-unstyled">
+    {{ range .Site.Menus.profiles }}
+    {{ partial "sidebar_menu_li.html" . }}
+    {{ end }}
+  </ul>
+</aside>

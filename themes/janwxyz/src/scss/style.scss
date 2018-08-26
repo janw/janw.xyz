@@ -44,12 +44,26 @@ html {
     overflow-y: scroll;
 }
 
-p {
-    &.site-description {
-        font-size: 0.9rem;
-        margin-left: 7px;
-        color: $text-muted !important;
-    }
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+header {
+  text-align: center;
+  & svg {
+    @extend .img-fluid;
+    margin-left: -9px;
+    max-width: 16em;
+  }
+  margin-bottom: 2em;
+}
+
+@include media-breakpoint-up(md) {
+  main:not(.landing) {
+    margin-top: 7rem;
+  }
 }
 
 .list-inline-item:not(:last-child) {
@@ -60,8 +74,8 @@ p {
 .mastfoot {
     font-size: 0.9em;
     color: $primary;
-    padding: 1rem 0 0;
-    opacity: 0.25;
+    // padding: 1rem 0px 1rem 0px;
+    opacity: 0.35;
     transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
@@ -84,13 +98,9 @@ p {
     @extend .text-danger;
 }
 
-body {
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
 .container-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem;
     max-width: $max-width-fluid;
     margin-top: 60px;
 }
