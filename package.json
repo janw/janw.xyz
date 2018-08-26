@@ -22,7 +22,6 @@
   "author": "Jan Willhaus",
   "license": "MIT",
   "devDependencies": {
-    "@fortawesome/fontawesome-pro": "^5.2.0",
     "bootstrap": "^4.1.0",
     "concurrently": "^3.6.0",
     "gulp": "^3.9.1",

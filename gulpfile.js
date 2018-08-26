@@ -5,13 +5,6 @@ var gulp         = require("gulp"),
 var srcp = "themes/janwxyz/src",
     dest = "themes/janwxyz/static";
 
-var fa_webfonts = 'node_modules/@fortawesome/fontawesome-pro/webfonts/*'
-
-gulp.task("fa-fonts", function() {
-    gulp.src(fa_webfonts)
-        .pipe(gulp.dest(dest + "/fonts"))
-})
-
 gulp.task("scss", function () {
     gulp.src(srcp + "/scss/**/*.scss")
         .pipe(sass({
@@ -34,7 +27,7 @@ gulp.task("watch", ["build"], function () {
     watcher.on('error', function() {});
 })
 
-gulp.task("build", ["scss", "fa-fonts"])
+gulp.task("build", ["scss"])
 
 // Set watch as default task
 gulp.task("default", ["watch"])
