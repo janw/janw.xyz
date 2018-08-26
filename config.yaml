@@ -23,44 +23,54 @@ menu:
     - identifier: about
       name: About Me
       url: /about/
-      pre: <i class="fal fa-user-astronaut fa-lg"></i>
+      pre: user-astronaut
       weight: -200
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      pre: comments
+      weight: -150
     # - identifier: resume
     #   name: Résumé
     #   url: /resume/
-    #   pre: <i class="fal fa-address-card"></i>
+    #   pre: address-card
     #   weight: -100
     - identifier: feed
       name: Subscribe
       title: RSS-Feed
       url: /feed.xml
       weight: 105
-      pre: <i class="fal fa-rss fa-lg"></i>
+      pre: rss
     - identifier: blog
       name: Blog
       weight: 100
       url: /blog/
-      pre: <i class="fal fa-pen-fancy fa-lg"></i>
+      pre: pen-fancy
 
 
 
   profiles:
     - name: GitHub
       url: https://github.com/janw
-      pre: <i class="fab fa-github fa-lg"></i>
+      pre: github
+      weight: -400
     - name: Mastodon
       url: https://chaos.social/@janw
-      pre: <i class="fab fa-mastodon fa-lg"></i>
+      pre: mastodon
     - name: Instagram
       url: https://instagram.com/_janwh/
-      pre: <i class="fab fa-instagram fa-lg"></i>
+      pre: instagram
     - name: Flickr
       title: Flickr.com
       url: https://www.flickr.com/photos/janwillhaus/
-      pre: <i class="fab fa-flickr fa-lg"></i>
+      pre: flickr
     - name: Keybase
       url: https://keybase.io/janw
-      pre: <i class="fab fa-keybase fa-lg"></i>
+      pre: keybase
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/janw/
+      pre: linkedin
+      weight: -500
 
 
 outputFormats:
