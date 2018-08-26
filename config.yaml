@@ -8,6 +8,11 @@ paginate: 5
 params:
   author: Jan Willhaus
   description: Jack of all trades and a master of some
+  description_meta: >
+    Jan Willhaus – Jack of all trades, master of some. Internet Aficionado,
+    tinkerer, audio engineer gone software engineering. Welcome! This is my
+    website where I keep a few things about me, and some articles posted in
+    my blog. Thanks for stopping by.
   greeting: Hi there!
   welcome: "My name is Jan,<br> I do things on the internet."
   repository: https://github.com/janwh/janwh.github.io
