@@ -14,7 +14,7 @@
       <ul class="list-inline">
         {{ range .Site.Menus.main }}
           <li class="list-inline-item">
-            <a href="{{ .URL | relURL }}" title="{{ .Title }}">
+            <a {{ if (hasPrefix .Identifier "alert") }}class="text-red"{{ end }} href="{{ .URL | relURL }}" title="{{ .Title }}">
               {{ partial "fontawesome.html" .Pre }}
               {{ .Name }}
             </a>
@@ -28,7 +28,7 @@
       {{ $currentPage := . }}
       {{ range .Site.Menus.profiles }}
         <li class="list-inline-item">
-          <a href="{{ .URL | relURL }}" title="{{ .Title }}">
+          <a rel="me" href="{{ .URL | relURL }}" title="{{ .Title }}">
             {{ partial "fontawesome.html" .Pre }}
             {{ .Name }}
           </a>

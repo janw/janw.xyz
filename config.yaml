@@ -18,6 +18,7 @@ params:
   repository: https://github.com/janwh/janwh.github.io
   isso_comments_base: https://janw.xyz/comments
   search_base: janw.xyz
+
 taxonomies:
   tag: ~
   group: ~
@@ -25,6 +26,11 @@ taxonomies:
 
 menu:
   main:
+    - identifier: alert-berlin
+      name: "Help wanted: Berlin"
+      url: /berlin/
+      pre: bullhorn
+      weight: -500
     - identifier: about
       name: About Me
       url: /about/
@@ -51,6 +57,11 @@ menu:
       weight: 100
       url: /blog/
       pre: pen-fancy
+    - identifier: flohmarkt
+      name: Flohmarkt
+      weight: 100
+      url: /flohmarkt/
+      pre: hand-holding-heart
 
 
 

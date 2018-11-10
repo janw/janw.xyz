@@ -1,5 +1,5 @@
 <li class="mb-2">
-    <a href="{{ .URL | relURL }}" title="{{ .Title }}">
+    <a  {{ if (hasPrefix .Identifier "alert") }}class="text-red"{{ end }} href="{{ .URL | relURL }}" title="{{ .Title }}">
         {{ partial "fontawesome.html" .Pre }}
         {{ .Name }}
     </a>
