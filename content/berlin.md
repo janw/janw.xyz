@@ -4,7 +4,7 @@ subtitle: Wir sind Miriam und Jan und suchen eine Wohnung in der Hauptstadt.
 layout: minipage_berlin
 opengraph:
     title: Hallo Berlin!
-    description: "Wir sind Miriam und Jan und suchen spätestens zum 20.12.2018 eine 3-Zimmer-Wohnung mit mindestens 65m² und maximal €1300 Euro Warmmiete. Wir sind unkomplizierte, sympatische und zuverlässige Mieter und freuen uns über jede Kontaktaufnahme."
+    description: "Wir sind Miriam und Jan und suchen spätestens zum 25.12.2018 eine 3-Zimmer-Wohnung mit mindestens 65m² und maximal €1300 Euro Warmmiete. Wir sind unkomplizierte, sympatische und zuverlässige Mieter und freuen uns über jede Kontaktaufnahme."
     url: https://janw.xyz/berlin/
     image: https://janw.xyz/media/20170517-IMG_3374.jpg
     type: website
@@ -18,16 +18,14 @@ main:
     pre: ruler-combined
   - name: Höchstens €1300 Warmmiete
     pre: usd-circle
-  - name: Bezug spätestens zum 20.12.2018
+  - name: Bezug spätestens zum 25.12.2018
     pre: people-carry
-  - name: Balkon/Loggia
-    pre: moon-stars
 
 aux:
+  - name: Balkon/Loggia
+    pre: moon-stars
   - name: Tageslichtbadezimmer
     pre: sun
-  - name: Keine offene Wohnküche
-    pre: utensils
   - name: Heizung durch Fernwärme
     pre: flame
   - name: Innerhalb/Nahe des S-Bahn-Rings
@@ -49,7 +47,7 @@ contact:
 
 Wir sind Miriam und Jan, ziehen zum Jahreswechsel 2018<span>/</span>2019 nach Berlin und suchen eine gemeinsame Wohnung.
 
-In Oldenburg (Oldb) leben wir bereits seit vier Jahren zusammen und unser Weg führt uns nun gemeinsam nach Berlin. Jan ist momentan noch festangestellt wissenschaftlicher Mitarbeiter einer Hochschule und tritt zum 01.01.2019 eine unbefristete Stelle als Software-Entwickler in Berlin an. Miriam schließt zum Jahresende ihr Studium der Gesundheitswissenschaften (Public Health) ab und jobbt neben der Masterarbeit als Postzustellerin. Wir halten uns für sehr unkomplizierte, sympatische und zuverlässige Mieter: wir spielen keine Musikinstrumente, haben keine Haustiere, rauchen nicht und verstehen uns mit unseren Vermietern und Nachbarn ausgezeichnet.
+In Oldenburg (Oldb) leben wir bereits seit vier Jahren zusammen und unser Weg führt uns nun gemeinsam nach Berlin. Jan ist momentan noch wissenschaftlicher Mitarbeiter einer Hochschule und tritt zum 01.01.2019 eine unbefristete Stelle als Software-Entwickler in Berlin an. Miriam schließt zum Jahresende ihr Masterstudium der Gesundheitswissenschaften (Public Health) ab; auf sie wartet zum 01.01. eine unbefristete Beschäftigung als klinische Audiologin im Öffentlichen Dienst. Wir halten uns für sehr unkomplizierte, sympathische und zuverlässige Mieter: wir spielen keine Musikinstrumente, haben keine Haustiere, rauchen nicht und verstehen uns mit unseren Vermietern und Nachbarn ausgezeichnet.
 
 Selbstverständlich sind wir kreditwürdig, eine positive SCHUFA-Auskunft liegt vor; wir haben keine Mietschulden und unsere Eltern sind bereit, auf Wunsch selbstschuldnerische Bürgschaften für uns abzugeben.
 
