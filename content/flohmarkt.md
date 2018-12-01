@@ -99,13 +99,13 @@ Ich beginne mit ein paar handverlesenen Sammlerstücken. Hierbei handelt es sich
 * Bear's Den – Islands
 * Bear's Den – Without / Within
 * Ben Howard – Every Kingdom
-* Billy Talent – Billy Talent
-* Billy Talent – Billy Talent II
-* Billy Talent – Billy Talent III
-* Blink-182 – Blink-182
-* Blink-182 – Greatest Hits
-* Blink-182 – Neighborhood
-* Blink-182 – Take Off Your Pants And Jacket
+* ~~Billy Talent – Billy Talent~~
+* ~~Billy Talent – Billy Talent II~~
+* ~~Billy Talent – Billy Talent III~~
+* ~~Blink-182 – Blink-182~~
+* ~~Blink-182 – Greatest Hits~~
+* ~~Blink-182 – Neighborhood~~
+* ~~Blink-182 – Take Off Your Pants And Jacket~~
 * Bon Iver – Bon Iver
 * Bon Iver – For Emma, Forever Ago
 * Bruno Mars – Do-Wops & Hooligans
@@ -117,13 +117,13 @@ Ich beginne mit ein paar handverlesenen Sammlerstücken. Hierbei handelt es sich
 * City And Colour – Sometimes
 * Clueso – So Sehr Dabei (Live)
 * Coldpay – Prospects March EP (Sleeve)
-* Coldplay – A Rush Of Blood To The Head
-* Coldplay – Ghost Stories
+* ~~Coldplay – A Rush Of Blood To The Head~~
+* ~~Coldplay – Ghost Stories~~
 * Coldplay – Live 2012
-* Coldplay – Mylo Xyloto
-* Coldplay – Parachutes[**](#lediert)
+* ~~Coldplay – Mylo Xyloto~~
+* ~~Coldplay – Parachutes~~
 * Coldplay – Viva La Vida or: Life And Death And All Of His Friends
-* Coldplay – X&Y
+* ~~Coldplay – X&Y~~
 * Counting Crows – August And Everything After
 * Counting Crows – Films About Ghosts – The Best Of…
 * Counting Crows – Hard Candy
@@ -132,8 +132,8 @@ Ich beginne mit ein paar handverlesenen Sammlerstücken. Hierbei handelt es sich
 * Dashboard Confessional – Alter The Ending
 * Dave Matthews Band – Stand Up
 * Elbow – Build A Rocket Boys!
-* Enno Bunger – Ein bisschen mehr Herz (Signiert)
-* Foo Fighters – Echoes, Silence, Patience & Grace
+* ~~Enno Bunger – Ein bisschen mehr Herz (Signiert)~~
+* ~~Foo Fighters – Echoes, Silence, Patience & Grace~~
 * Foo Fighters – Wasting Light
 * Genesis – The Way We Walk Vol. 2: The Longs (Live)
 * I.C.I. – Moments Of Duality
@@ -145,10 +145,10 @@ Ich beginne mit ein paar handverlesenen Sammlerstücken. Hierbei handelt es sich
 * InMe – All Terrain Vehicle / Nova Armada (Promo-CD, Sleeve)
 * InMe – The Pride
 * Jack Johnson – In Between Dreams
-* Jack Johnson – Jack Johnson and Friends' Sing-A-Longs and Lullabies for the Film Curious George
-* Jack Johnson – On And On
-* Jack Johnson – Sleep Through The Static
-* Jack Johnson – To The Sea
+* ~~Jack Johnson – Sing-A-Longs and Lullabies for the Film Curious George~~
+* ~~Jack Johnson – On And On~~
+* ~~Jack Johnson – Sleep Through The Static~~
+* ~~Jack Johnson – To The Sea~~
 * James Morrison – The Awakening
 * Jamie Cullum – Catching Tales
 * Jamie Cullum – Momentum
@@ -173,11 +173,11 @@ Ich beginne mit ein paar handverlesenen Sammlerstücken. Hierbei handelt es sich
 * Kings Of Leon – Come Around Sundown
 * Kings Of Leon – Only By The Night
 * Kings Of Leon – Youth & Young Manhood
-* Linkin Park – Hybrid Theory
-* Linkin Park – Live In Texas (inkl. DVD-Video)
-* Linkin Park – Meteora
-* Linkin Park – Minutes To Midnight
-* Linkin Park – Reanimation
+* ~~Linkin Park – Hybrid Theory~~
+* ~~Linkin Park – Live In Texas (inkl. DVD-Video)~~
+* ~~Linkin Park – Meteora~~
+* ~~Linkin Park – Minutes To Midnight~~
+* ~~Linkin Park – Reanimation~~
 * Lizzard – Shift (Signiert)
 * Lostprophes – Weapons (Deluxe Ed.)
 * Lostprophets – Liberation Transmission[**](#lediert)
@@ -185,15 +185,15 @@ Ich beginne mit ein paar handverlesenen Sammlerstücken. Hierbei handelt es sich
 * Lostprophets – The Betrayed
 * Lostprophets – The Fake Sound Of Progress
 * Maroon 5 – Songs About Jane
-* Marooon 5 – Hands All Over
-* Michael Jackson – Thriller
+* Maroon 5 – Hands All Over
+* ~~Michael Jackson – Thriller~~
 * Motion City Soundtrack – Commit This To Memory
 * Motion City Soundtrack – Even If It Kills Me
 * Motion City Soundtrack – Go
 * Motion City Soundtrack – I Am The Movie
-* Mumford & Sons – Babel
-* Mumford & Sons – Sigh No More
-* My Chemical Romance – The Cheers For Sweet Revenge
+* ~~Mumford & Sons – Babel~~
+* ~~Mumford & Sons – Sigh No More~~
+* ~~My Chemical Romance – The Cheers For Sweet Revenge~~
 * Natural Born Hippies – In Your Dreams
 * Nickelback – All The Right Reasons
 * Nickelback – Here And Now
@@ -217,9 +217,9 @@ Ich beginne mit ein paar handverlesenen Sammlerstücken. Hierbei handelt es sich
 * Red Hot Chili Peppers – Greatest Hits
 * Red Hot Chili Peppers – Stadium Arcadium
 * Rhythms Del Mundo – Cuba
-* Robbie Williams – Escapology
-* Robbie Williams – Greatest Hits[**](#lediert)
-* Robbie Williams – I've Been Expecting You
+* ~~Robbie Williams – Escapology~~
+* Robbie Williams – Greatest Hits
+* ~~Robbie Williams – I've Been Expecting You~~
 * Robbie Williams – Intensive Care
 * Robbie Williams – Live Sommer 2003
 * Robbie Williams – Swing When You're Winning
@@ -251,9 +251,9 @@ Ich beginne mit ein paar handverlesenen Sammlerstücken. Hierbei handelt es sich
 * Tempting Paris – Polaroids In July
 * The All-American Rejects – Move Along
 * The All-American Rejects – When The World Comes Down
-* The Fray – How To Save A Life
+* ~~The Fray – How To Save A Life~~
 * The Fray – Scars & Stories
-* The Fray – The Fray
+* ~~The Fray – The Fray~~
 * The Girl & The Ghost – The Girl & The Ghost (Signiert, Sleeve)
 * The Goo Goo Dolls – Dizzy Up The Girl
 * The Goo Goo Dolls – Gutterflower
@@ -262,7 +262,7 @@ Ich beginne mit ein paar handverlesenen Sammlerstücken. Hierbei handelt es sich
 * The Kooks – Inside In / Inside Out
 * The Kooks – Junk Of The Heart
 * The Kooks – Konk
-* The Naked And The Famous – Passive Me / Aggressive You
+* ~~The Naked And The Famous – Passive Me / Aggressive You~~
 * The Pineapple Thief – 3000 Days
 * The Pineapple Thief – Someone Here Is Missing
 * The Pineapple Thief – Variations On A Dream
