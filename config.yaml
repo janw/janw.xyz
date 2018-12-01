@@ -26,11 +26,6 @@ taxonomies:
 
 menu:
   main:
-    - identifier: alert-berlin
-      name: "Help wanted: Berlin"
-      url: /berlin/
-      pre: bullhorn
-      weight: -500
     - identifier: about
       name: About Me
       url: /about/

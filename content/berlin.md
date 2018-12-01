@@ -1,6 +1,6 @@
 ---
-title: Hallo Berlin!
-subtitle: Wir sind Miriam und Jan und suchen eine Wohnung in der Hauptstadt.
+title: Berlin, wir kommen!
+subtitle: Wir sind Miriam und Jan und bei unserer Wohnungssuche nun erfolgreich gewesen.
 layout: minipage_berlin
 opengraph:
     title: Hallo Berlin!
@@ -32,12 +32,8 @@ aux:
     pre: map-marker-smile
 
 contact:
-  - name: 'Telefon: <a href="tel:+4915140418350">+49&#8239;151&#8239;40418350</a>'
-    pre: phone
   - name: 'E-Mail: <a href="mailto:berlin@janwillhaus.de">berlin@janwillhaus.de</a>'
     pre: envelope-open-text
-  - name: 'WhatsApp: <a href="whatsapp://send?phone=+4915140418350">+49&#8239;151&#8239;40418350</a>'
-    pre: whatsapp
   - name: 'Telegram: <a href="https://t.me/janwxyz">@janwxyz</a>'
     pre: telegram
   - name: 'Threema: <a href="threema://W6NE2HVM">W6NE2HVM</a>'
@@ -45,10 +41,6 @@ contact:
 
 ---
 
-Wir sind Miriam und Jan, ziehen zum Jahreswechsel 2018<span>/</span>2019 nach Berlin und suchen eine gemeinsame Wohnung.
+Zum Jahreswechsel 2018<span>/</span>2019 suchten wir über diese Seite eine gemeinsame Wohnung in Berlin. Mittlerweile haben wir großes Glück gehabt und haben eine tolle Bleibe gefunden. Die Resonanz auf diese Seite hat uns erstaunt und zutiefst beeindruckt. Falls nochmal jemand hierher findet, der den Link geteilt oder uns sogar geantwortet hat:
 
-In Oldenburg (Oldb) leben wir bereits seit vier Jahren zusammen und unser Weg führt uns nun gemeinsam nach Berlin. Jan ist momentan noch wissenschaftlicher Mitarbeiter einer Hochschule und tritt zum 01.01.2019 eine unbefristete Stelle als Software-Entwickler in Berlin an. Miriam schließt zum Jahresende ihr Masterstudium der Gesundheitswissenschaften (Public Health) ab; auf sie wartet zum 01.01. eine unbefristete Beschäftigung als klinische Audiologin im Öffentlichen Dienst. Wir halten uns für sehr unkomplizierte, sympathische und zuverlässige Mieter: wir spielen keine Musikinstrumente, haben keine Haustiere, rauchen nicht und verstehen uns mit unseren Vermietern und Nachbarn ausgezeichnet.
-
-Selbstverständlich sind wir kreditwürdig, eine positive SCHUFA-Auskunft liegt vor; wir haben keine Mietschulden und unsere Eltern sind bereit, auf Wunsch selbstschuldnerische Bürgschaften für uns abzugeben.
-
-Wir freuen uns auf das lebendige Berlin und bevorzugen daher eine zentral gelegene Wohnung; sie sollte sich nach Möglichkeit im oder Nahe des S-Bahn-Rings befinden. Das ist aber — wie alle anderen Kriterien auch — keine strenge Voraussetzung. Wenn Sie eine Wohnung vermieten oder vermitteln, die womöglich zu uns passt, lassen Sie es uns bitte wissen!
+Vielen vielen Dank! {{% fontawesome heart %}}
