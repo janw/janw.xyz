@@ -6,9 +6,8 @@
   "private": true,
   "main": "gulpfile.js",
   "scripts": {
-    "build": "gulp build && hugo",
-    "create": "hugo new",
-    "start": "concurrently --kill-others \"gulp watch\" \"hugo serve -w\""
+    "build": "gulp build",
+    "start": "gulp watch"
   },
   "repository": {
     "type": "git",
@@ -22,14 +21,13 @@
   "author": "Jan Willhaus",
   "license": "MIT",
   "devDependencies": {
-    "bootstrap": "^4.1.3",
-    "concurrently": "^3.6.1",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^5.0.0",
-    "gulp-clean-css": "^3.10.0",
-    "gulp-copy": "^1.1.0",
+    "bootstrap": "^4.2.1",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^4.0.0",
     "gulp-sass": "^4.0.2",
-    "hugo-bin": "^0.29.0"
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.6"
   },
   "dependencies": {}
 }
