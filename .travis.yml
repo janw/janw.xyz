@@ -5,6 +5,8 @@ go:
 
 install:
   - go get github.com/spf13/hugo
+  - npm install
+
 
 script:
   - ./fa_icons_download.sh

@@ -15,7 +15,7 @@ params:
     my blog. Thanks for stopping by.
   greeting: Hi there!
   welcome: "My name is Jan,<br> I do things on the internet."
-  repository: https://github.com/janwh/janwh.github.io
+  repository: https://github.com/janw/janw.xyz
   isso_comments_base: https://janw.xyz/comments
   search_base: janw.xyz
 
@@ -35,11 +35,6 @@ menu:
       url: /contact/
       pre: comments
       weight: -150
-    # - identifier: resume
-    #   name: Résumé
-    #   url: /resume/
-    #   pre: address-card
-    #   weight: -100
     - identifier: feed
       name: Subscribe
       title: RSS-Feed
@@ -51,21 +46,12 @@ menu:
       weight: 100
       url: /blog/
       pre: pen-fancy
-    - identifier: flohmarkt
-      name: Flohmarkt
-      weight: 100
-      url: /flohmarkt/
-      pre: hand-holding-heart
-
 
   profiles:
     - name: GitHub
       url: https://github.com/janw
       pre: github
       weight: -400
-    - name: Mastodon
-      url: https://chaos.social/@janw
-      pre: mastodon
     - name: Instagram
       url: https://instagram.com/_janwh/
       pre: instagram
@@ -80,7 +66,6 @@ menu:
       url: https://www.linkedin.com/in/janw/
       pre: linkedin
       weight: -500
-
 
 outputFormats:
   RSS:
