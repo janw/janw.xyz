@@ -19,10 +19,9 @@ params:
   isso_comments_base: https://janw.xyz/comments
   search_base: janw.xyz
 
-taxonomies:
-  tag: ~
-  group: ~
-  category: ~
+disableKinds:
+- taxonomy
+- taxonomyTerm
 
 menu:
   main:
@@ -57,7 +56,6 @@ menu:
       weight: 100
       url: /flohmarkt/
       pre: hand-holding-heart
-
 
 
   profiles:
