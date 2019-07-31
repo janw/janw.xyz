@@ -52,9 +52,6 @@ menu:
       url: https://github.com/janw
       pre: github
       weight: -400
-    - name: Instagram
-      url: https://instagram.com/_janwh/
-      pre: instagram
     - name: Flickr
       title: Flickr.com
       url: https://www.flickr.com/photos/janwillhaus/
@@ -65,7 +62,7 @@ menu:
     - name: LinkedIn
       url: https://www.linkedin.com/in/janw/
       pre: linkedin
-      weight: -500
+      weight: 500
 
 outputFormats:
   RSS:
