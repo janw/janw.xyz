@@ -4,11 +4,6 @@
   "description": "Hugo-built static site for janw.xyz.",
   "homepage": "https://janw.xyz",
   "private": true,
-  "main": "gulpfile.js",
-  "scripts": {
-    "build": "gulp build",
-    "start": "gulp watch"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/janw/janw.xyz.git"
@@ -22,10 +17,6 @@
   "license": "MIT",
   "devDependencies": {
     "bootstrap": "^4.2.1",
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^6.0.0",
-    "gulp-clean-css": "^4.0.0",
-    "gulp-sass": "^4.0.2",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.6"
   },
