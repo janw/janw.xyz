@@ -1,0 +1,4 @@
+<a {{- if (hasPrefix .Identifier "alert") }} class="text-red"{{ end }} href="{{ .URL | relURL }}"{{ with .Title}} title="{{ . }}"{{ end }}>
+    {{- partial "fontawesome.html" .Pre }}
+    {{ .Name -}}
+</a>

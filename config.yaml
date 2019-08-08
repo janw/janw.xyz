@@ -5,6 +5,7 @@ description:
 theme: janwxyz
 assetDir: themes/janwxyz/src
 paginate: 5
+enableGitInfo: true
 
 params:
   author: Jan Willhaus

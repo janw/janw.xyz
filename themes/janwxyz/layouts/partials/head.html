@@ -4,6 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 {{ hugo.Generator }}
+<meta name="commit" content="{{.GitInfo.Hash}}">
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
 {{ with .Site.Params.author -}}
     <meta name="author" content="{{ . }}">

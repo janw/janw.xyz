@@ -14,10 +14,7 @@
       <ul class="list-inline">
         {{ range .Site.Menus.main }}
           <li class="list-inline-item">
-            <a {{ if (hasPrefix .Identifier "alert") }}class="text-red"{{ end }} href="{{ .URL | relURL }}" title="{{ .Title }}">
-              {{ partial "fontawesome.html" .Pre }}
-              {{ .Name }}
-            </a>
+          {{ partial "sidebar_menu_li_inner.html" .}}
           </li>
         {{ end }}
       </ul>
