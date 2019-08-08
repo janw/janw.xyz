@@ -9,6 +9,7 @@ tags:
 - audio compression
 - lossless audio
 title: Die letzte Daseinsberechtigung der CD?
+language: de
 
 ---
 

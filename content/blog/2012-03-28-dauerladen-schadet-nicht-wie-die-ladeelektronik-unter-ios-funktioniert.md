@@ -9,6 +9,7 @@ tags:
 - batteries
 - li-ion
 title: Dauerladen schadet nicht – Wie die Ladeelektronik unter iOS funktioniert
+language: de
 
 ---
 

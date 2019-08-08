@@ -1,9 +1,9 @@
 ---
 title: "Hübsche Gendergaps mit LaTeX erzeugen"
+language: de
 date: "2018-10-28T21:01:38+01:00"
 slug: huebschen-gendergap-haben-sie-da
 ---
-
 
 Kürzlich habe ich festgestellt, wie furchtbar ein Gendergap in LaTeX aussieht, wenn es auf üblichem Wege (mittels Unterstrich `\textunderscore`) erzeugt wird. Besonders stört mich daran, dass der Unterstrich in der Schriftart Computer Modern (dem LaTeX-Default) ungewöhnlich lang ist und etwas *zu* tief steht. Hinzu kommt, dass in der deutschen Silbentrennung vor einem Unterstrich natürlich kein Wortumbruch vorgesehen ist, auch wenn dies bei langen gegenderten durchaus sinnvoll sein kann. Besonders die "_innen"-Endung ist lang genug, um den sauberen Blocksatz für LaTeX unmöglich zu machen. Das äußert sich dann durch über den Block hinaushängenden Wörter.
 
@@ -46,15 +46,14 @@ Bricht um: Forscher\gginnen Forscher\n Forscher\gginnen Forscher\gginnen Forsche
 \end{document}
 ```
 
-
 Das kompiliert zu folgendem Ergebnis, das aus meiner Sicht deutlich ansprechender aussieht, den Gendergap an eine vernünftige Position hebt und dank `"-` Makro aus dem guten alten `ngerman`-Paket auch die optionale Silbentrennung vor dem Gap hinzufügt (die ursprünglichen Trennungsmöglichkeiten des zugrunde liegenden Worts bleiben erhalten).
 
 {{< fig src="/media/genderhyph.png" title="Beispiel des ästhetisch ansprechenden Gendergap im Vergleich zum gewöhnlichen Unterstrich (oben)" >}}
 
-
 Zwei Bemerkungen zum Schluss:
 
-* Innerhalb von `\caption`-Umgebungen (vermutlich noch weiteren) muss das `\gendergap` Makro (und die `\gg…`-Derivate) geschützt werden. Dazu wird direkt davor ein `\protect` eingesetzt:<br />`ein\protect\gendergap e` oder `Forscher\protect\innen`.
+* Innerhalb von `\caption`-Umgebungen (vermutlich noch weiteren) muss das `\gendergap` Makro (und die `\gg…`-Derivate) geschützt werden. Dazu wird direkt davor ein `\protect` eingesetzt:\
+  `ein\protect\gendergap e` oder `Forscher\protect\innen`.
 * Falls jemand auf die Idee kommt, die `gg`-Präfixe von den Makros wegzulassen: die naheliegende Bennenung von `\in` wird nicht funktionieren, weil die Variable innerhalb von TeX schon verwendet wird (wenngleich nur innerhalb von Matheumgebungen, für das &isin;-Symbol)
 
 Happy gender diversity! 🏳️‍🌈👋

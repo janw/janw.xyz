@@ -5,6 +5,7 @@ date: '2017-08-19'
 id: 315
 slug: vacation-by-bike-2017-preparations
 title: 'Vacation by bike 2017: Preparations'
+language: de
 
 ---
 

@@ -9,10 +9,11 @@ tags:
 - moving
 - studies
 title: Mein Auszug – Teil 1
+language: de
 
 ---
 
-Bis vor ein paar Tagen hatte ich es immer abgetan und wollte so lange wie möglich darauf verzichten, nun ist schon alles in trockenen Tüchern und es steht fest: Ich werde in wenigen Wochen zu Hause ausziehen und eine eigene <del>Wohnung</del> Apartment beziehen.
+Bis vor ein paar Tagen hatte ich es immer abgetan und wollte so lange wie möglich darauf verzichten, nun ist schon alles in trockenen Tüchern und es steht fest: Ich werde in wenigen Wochen zu Hause ausziehen und eine eigene ~~Wohnung~~ Apartment beziehen.
 
 Ab März beginne ich das zweite Fachsemester meines Hörtechnik- und Audiologiestudiums an der Jade Hochschule in Oldenburg und während ich im ersten Semester fast täglich etwa 3 Stunden in öffentlichen Verkehrsmitteln verbracht habe, wird es für mich ab sofort wesentlich einfacher zum Institut zu kommen. Es trennen mich nur noch fünf Minuten Busfahrt oder knapp eineinhalb Kilometer mit dem Fahrrad vom FH-Campus, was mir am Tag so einiges an Zeit und Nerven erspart. Der Komfort des Elternhauses mit den überwiegenden Vorteilen hat mich bisher davon abgehalten, aktiv nach einer Wohnung in der Universitätsstadt Ausschau zu halten und so war die einzige Anstrengung die ich dahingehend unternahm, mich auf einen Platz im Studentenwohnheim der Uni Oldenburg zu bewerben. Einmal im Monat die Bewerbung durch eine kurze elektronische Rückmeldung aufrecht erhalten war das einzige was ich dafür tat, jedoch mit dem Hintergedanken, dass – wenn mir eine Wohnung angeboten würde – ich diese definitiv annähme.
 

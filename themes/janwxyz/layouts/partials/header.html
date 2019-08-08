@@ -8,18 +8,6 @@
 </header>
 
 <aside class="d-none d-md-block">
-  <h5 class="mb-3">Here</h5>
-  <nav>
-    <ul class="list-unstyled">
-      {{ range .Site.Menus.main }}
-      {{ partial "sidebar_menu_li.html" . }}
-      {{ end }}
-    </ul>
-  </nav>
-  <h5 class="mt-5 mb-3">Elsewhere</h5>
-  <ul class="list-unstyled">
-    {{ range .Site.Menus.profiles }}
-    {{ partial "sidebar_menu_li.html" . }}
-    {{ end }}
-  </ul>
+  {{ partial "sidebar_menu_here.html" .}}
+  {{ partial "sidebar_menu_elsewhere.html" .}}
 </aside>

@@ -9,6 +9,7 @@ tags:
 - self-improvement
 - weightloss
 title: 40 Kilo altes Ich. Ein neuer Mensch in einem Jahr
+language: de
 
 ---
 

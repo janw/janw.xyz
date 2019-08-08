@@ -1,0 +1,12 @@
+<h5 class="mb-3">Here</h5>
+<nav>
+    <ul class="list-unstyled">
+        {{ range .Site.Menus.main }}
+        {{ partial "sidebar_menu_li.html" . }}
+        {{ end }}
+
+        {{ range .Site.Menus.sidebaraddedmain }}
+        {{ partial "sidebar_menu_li.html" . }}
+        {{ end }}
+    </ul>
+</nav>

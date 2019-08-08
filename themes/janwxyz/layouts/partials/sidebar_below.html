@@ -1,23 +1,10 @@
-
 <aside class="d-block d-md-none">
   <div class="row">
     <div class="col-6">
-      <h5 class="">Here</h5>
-      <nav>
-        <ul class="list-unstyled">
-          {{ range .Site.Menus.main }}
-          {{ partial "sidebar_menu_li.html" . }}
-          {{ end }}
-        </ul>
-      </nav>
+      {{ partial "sidebar_menu_here.html" .}}
     </div>
     <div class="col-6">
-      <h5 class="">Elsewhere</h5>
-      <ul class="list-unstyled">
-        {{ range .Site.Menus.profiles }}
-        {{ partial "sidebar_menu_li.html" . }}
-        {{ end }}
-      </ul>
+      {{ partial "sidebar_menu_elsewhere.html" .}}
     </div>
   </div>
 </aside>

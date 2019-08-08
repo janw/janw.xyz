@@ -4,20 +4,13 @@
     <div class="col-12 col-md-4 order-0 order-md-2">
       {{ partial "header.html" . }}
     </div>
-
-    <div class="col-12 col-md-8 order-1">
+    <div class="col-12 col-md-8 order-1 d-flex flex-column">
       <main>
-        {{ $paginator := .Paginate (where .Pages "Type" "blog") }}
-        {{ range $paginator.Pages }}
-          {{ partial "summary.html" . }}
+        {{ block "main" . }}
         {{ end }}
-        {{ partial "pagination.html" . }}
       </main>
-
       {{ partial "sidebar_below.html" . }}
       {{ partial "footer.html" . }}
     </div>
   </div>
 </div>
-</body>
-</html>

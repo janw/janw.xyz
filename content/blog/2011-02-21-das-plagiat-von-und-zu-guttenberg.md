@@ -10,6 +10,7 @@ tags:
 - plagiarism
 - thesis
 title: Das Plagiat von und zu Guttenberg
+language: de
 
 ---
 

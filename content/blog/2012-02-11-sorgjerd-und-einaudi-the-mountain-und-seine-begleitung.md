@@ -9,6 +9,7 @@ tags:
 - contemporary classic
 - ludovico einaudi
 title: Sørgjerd und Einaudi – The Mountain und seine Begleitung
+language: de
 
 ---
 

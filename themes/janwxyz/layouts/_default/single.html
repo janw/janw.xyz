@@ -1,24 +1,16 @@
-{{ partial "head.html" . }}
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-12 col-md-4 order-0 order-md-2">
-      {{ partial "header.html" . }}
-    </div>
-
-    <div class="col-12 col-md-8 order-1 d-flex flex-column">
-      <main>
-        <article>
-          <h1><a href="{{ .Permalink }}">{{ safeHTML .Title }}</a></h1>
-          <div class="mt-3">
-            {{ .Content }}
-          </div>
-        </article>
-      </main>
-
-      {{ partial "sidebar_below.html" . }}
-      {{ partial "footer.html" . }}
-    </div>
+{{ define "main" }}
+<article lang="{{default .Site.LanguageCode .Params.language}}">
+  <h1><a href="{{ .Permalink }}">{{ safeHTML .Title }}</a></h1>
+  {{ if and (or (eq .Type "blog") (.Params.show_date)) .Date }}
+  <time class="text-muted">{{ .Date.Format "2006-01-02" }}</time>
+  {{ end }}
+  <div class="mt-3">
+    {{ .Content }}
   </div>
-</div>
-</body>
-</html>
+</article>
+{{ if and (or (eq .Type "blog") (.Params.show_comments)) (not .Params.disable_comments) }}
+  <div>
+  {{ partial "comments.html" . }}
+  </div>
+{{ end }}
+{{ end }}

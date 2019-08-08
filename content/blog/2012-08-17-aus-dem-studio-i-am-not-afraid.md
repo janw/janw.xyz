@@ -10,6 +10,7 @@ tags:
 - self-composed
 - song
 title: 'Aus dem Studio: I am not afraid'
+language: de
 
 ---
 

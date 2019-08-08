@@ -1,10 +1,16 @@
-	<article class="mb-5">
-		<h2 class="h1"><a class="mr-2" href="{{ .Permalink }}">{{ .Title }}</a></h2>
-		<time class="text-muted">{{ .Date.Format "2006-01-02" }}</time>
-		<div class="mt-3">
-			{{ .Summary }}
-			{{ if .Truncated }}
-				<a href="{{ .Permalink }}">Read more …</a>
-			{{ end }}
-		</div>
-	</article>
+<article class="mb-5">
+  <h2 lang="{{default .Site.LanguageCode .Params.language}}" class="h1">
+    <a class="mr-2" href="{{ .Permalink }}">
+    {{- .Title -}}
+    </a>
+  </h2>
+  <time class="text-muted">{{ .Date.Format "2006-01-02" }}</time>
+  <div class="mt-3">
+    <div lang="{{default .Site.LanguageCode .Params.language}}">
+      {{ .Summary }}
+    </div>
+    {{ if .Truncated }}
+      <a href="{{ .Permalink }}">Read more …</a>
+    {{ end }}
+  </div>
+</article>

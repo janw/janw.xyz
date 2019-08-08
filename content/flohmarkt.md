@@ -1,18 +1,16 @@
 ---
-Title: Jans Musik- und Medienflohmarkt
-opengraph:
-    title: Jans Musik- und Medienflohmarkt
-    description: Ich löse meine Musik- und Mediensammlung auf und möchte mehr als 200 CDs, DVDs und BluRays verkaufen. Auf diesem "Internetflohmarkt" findest du eine komplette Liste, zu der auch einige limitierte Sammlerstücke gehören.
+title: &title Jans Musik- und Medienflohmarkt
+description: &description Ich löse meine Musik- und Mediensammlung auf und möchte mehr als 200 CDs, DVDs und BluRays verkaufen. Auf diesem "Internetflohmarkt" findest du eine komplette Liste, zu der auch einige limitierte Sammlerstücke gehören.
+language: de
 ---
 
-[Da bis zum Ende des Jahres ein Umzug ansteht](/berlin/), soll unser Hausstand vorher noch ein bisschen kleiner werden.
+Mein Hausstand soll kleiner werden.
 
-Davon betroffen ist auch meine "Mediensammlung". Über die Jahre habe ich einiges an Musik, Serien und Filmen angesammelt, die sich bisher im Regal ganz gut gemacht haben. Ich möchte aber gern mit weniger Dingen auskommen und daher sollen die CDs/DVDs/BDs nun unter den Hammer. Weil das Internet ein ganz wunderbarer Ort für sowas ist, möchte ich euch™ meinen kleinen Flohmarkt vorstellen.
+Davon betroffen ist auch meine "Mediensammlung". Über die Jahre habe ich einiges an Musik, Serien und Filmen angesammelt, die sich bisher im Regal ganz gut gemacht haben. Ich möchte aber gern mit weniger Dingen auskommen und daher sollen die CDs/DVDs/BDs nun unter den Hammer. Weil das Internet ein ganz wunderbarer Ort für sowas ist, hier mein kleiner Flohmarkt.
 
-Im Folgenden findet ihr Listen aller Medien, die ich anzubieten habe. Ich habe bewusst keine Preise dazu geschrieben, weil ich euch gern individuell Angebote machen möchte – wer mir direkt eine ganze Wagenladung abnimmt, bekommt natürlich auch einen unschlagbaren Preis! Grober Richtwert bei Einzelkäufen ist für mich €&#8239;1, wobei ihr den gewünschten Versand selbst wählen könnt (Briefsendung €&#8239;1,45; Päckchen €&#8239;3,79; Paket €&#8239;4,99).
+Im Folgenden findet ihr Listen aller Medien, die ich anzubieten habe. Ich habe bewusst keine Preise dazu geschrieben, weil ich euch gern individuell Angebote machen möchte – wer mir direkt eine ganze Wagenladung abnimmt, bekommt natürlich auch einen unschlagbaren Preis! Grober Richtwert bei Einzelkäufen ist für mich €&#8239;1, wobei ihr den gewünschten Versand selbst wählen könnt (Briefsendung €&#8239;1,45; Päckchen €&#8239;3,79; Paket €&#8239;4,99). Eine __Abholung in Berlin__ ist natürlich auch möglich.
 
 __Falls also jemand Interesse hat, mir etwas davon abzunehmen, schreibt mir einfach eine Mail an [flohmarkt@janw.xyz](mailto:flohmarkt@janw.xyz), copy-pastet die gewünschten Medien hinein und ich melde mich so schnell wie möglich mit einem garantiert guten Angebot. 🙃__
-
 
 ### Sammlerstücke
 
@@ -36,7 +34,6 @@ Ich beginne mit ein paar handverlesenen Sammlerstücken. Hierbei handelt es sich
 * The Pineapple Thief – All The Wars (Limited Digibook Ed., inkl. Bonus-CD)
 * The Pineapple Thief – Magnolia (Limited Digibook Ed., inkl. Bonus-CD)
 
-
 ### Filme
 
 * 500 Days Of Summer (2009, DVD)
@@ -55,7 +52,6 @@ Ich beginne mit ein paar handverlesenen Sammlerstücken. Hierbei handelt es sich
 * Ziemlich beste Freunde (DVD, inkl. Extras-DVD)
 * Zweiohrküken (2009)
 
-
 ### Serien
 
 * Breaking Bad – The Complete Series (FR-Import BD, englische Tonspuren)
@@ -64,7 +60,6 @@ Ich beginne mit ein paar handverlesenen Sammlerstücken. Hierbei handelt es sich
 * How I Met Your Mother – Season 3 (UK-Import DVD)
 * How I Met Your Mother – Season 7 (UK-Import DVD)
 * How I Met Your Mother – Season 8 (UK-Import DVD)
-
 
 ### Konzert-DVDs
 
@@ -79,10 +74,9 @@ Ich beginne mit ein paar handverlesenen Sammlerstücken. Hierbei handelt es sich
 * Söhne Mannheims – Power Of The Sound (2DVD-Set)
 * The Goo Goo Dolls – Live in Buffalo July 4th 2004 (inkl. CD-Audio)
 
-
 ### Musik
 
-* 3 Doors Down – 3 Doors Down[**](#lediert)
+* 3 Doors Down – 3 Doors Down[^lediert]
 * 3 Doors Down – Away From The Sun
 * 3 Doors Down – Seventeen Days
 * 3 Doors Down – The Better Life
@@ -180,7 +174,7 @@ Ich beginne mit ein paar handverlesenen Sammlerstücken. Hierbei handelt es sich
 * ~~Linkin Park – Reanimation~~
 * Lizzard – Shift (Signiert)
 * Lostprophes – Weapons (Deluxe Ed.)
-* Lostprophets – Liberation Transmission[**](#lediert)
+* Lostprophets – Liberation Transmission[^lediert]
 * Lostprophets – Start Something
 * Lostprophets – The Betrayed
 * Lostprophets – The Fake Sound Of Progress
@@ -279,10 +273,4 @@ Ich beginne mit ein paar handverlesenen Sammlerstücken. Hierbei handelt es sich
 * Two Hearts In Ten Bands – Soulsisters
 * Vanessa Carlton – Be Not Nobody
 
-<a name="lediert"><code>**</code></a>: Einige wenige CDs oder ihre Cases haben ein paar Beschädigungen; diese habe ich entsprechend gekennzeichnet\*\*. Die verschenke ich gern, wenn ihr mir dazu noch mindestens ein weiteres Album abnehmt.
-
-
-----
-
-
-Da ich natürlich mit einem *ungeheuren* Andrang rechne, werde ich die Anfragen nach "First Come, First Serve" bearbeiten. Sobald Medien vergriffen sind, werde ich sie aus der Liste ~~streichen~~. Gern dürft ihr den Link zur Seite eurem musikbegeisterten Bekanntenkreis weitergeben. Vielen Dank! 🙏
+[^lediert]: Einige wenige CDs oder ihre Cases haben ein paar Beschädigungen; diese habe ich entsprechend mit Fußnote gekennzeichnet. Die verschenke ich gern.

@@ -1,3 +1,3 @@
 ---
-Title: Jan Willhaus' Blog — Janw.xyz
+title: Jan's Blog — Janw.xyz
 ---

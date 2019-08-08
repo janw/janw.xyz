@@ -9,6 +9,7 @@ tags:
 - getting things done
 - preparation
 title: 'Radurlaub 2017: Vorbereitungen'
+language: de
 
 ---
 

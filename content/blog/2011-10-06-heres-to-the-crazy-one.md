@@ -9,6 +9,7 @@ tags:
 - obituary
 - steve jobs
 title: Here’s to the Crazy One
+language: de
 
 ---
 

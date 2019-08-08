@@ -7,10 +7,9 @@ paginate: 5
 
 params:
   author: Jan Willhaus
-  description: Jack of all trades and a master of some
-  description_meta: >
+  description: >-
     Jan Willhaus – Jack of all trades, master of some. Internet Aficionado,
-    tinkerer, audio engineer gone software engineering. Welcome! This is my
+    tinkerer, audio engineer gone software engineering. This is my
     website where I keep a few things about me, and some articles posted in
     my blog. Thanks for stopping by.
   greeting: Hi there!
@@ -35,17 +34,25 @@ menu:
       url: /contact/
       pre: comments
       weight: -150
-    - identifier: feed
-      name: Subscribe
-      title: RSS-Feed
-      url: /feed.xml
-      weight: 105
-      pre: rss
     - identifier: blog
       name: Blog
       weight: 100
       url: /blog/
       pre: pen-fancy
+    - identifier: flohmarkt
+      name: Flohmarkt
+      weight: 100
+      url: /flohmarkt/
+      pre: store
+
+  sidebarAddedMain:
+    - identifier: feed
+      name: Subscribe
+      title: RSS-Feed
+      url: /feed.xml
+      weight: 100
+      pre: rss
+
 
   profiles:
     - name: GitHub

@@ -10,6 +10,7 @@ tags:
 - audiophiles
 - music
 title: Das Ende des optischen Laufwerks?
+language: de
 
 ---
 

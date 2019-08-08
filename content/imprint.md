@@ -1,6 +1,7 @@
 ---
 title: Impressum
 linktitle: Imprint
+language: de
 ---
 
 <h6>Angaben gem&auml;&szlig; &sect; 5 TMG</h6>

@@ -8,6 +8,7 @@ tags:
 - audio
 - lossless audio
 title: Denkansatz zu Google Music mit FLAC aber ohne ALAC
+language: de
 
 ---
 

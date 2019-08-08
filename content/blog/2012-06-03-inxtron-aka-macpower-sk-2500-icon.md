@@ -8,6 +8,7 @@ tags:
 - design
 - icon
 title: inXtron aka MacPower SK-2500 Icon
+language: de
 
 ---
 

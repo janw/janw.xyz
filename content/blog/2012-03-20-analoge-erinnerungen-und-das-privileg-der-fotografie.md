@@ -8,6 +8,7 @@ tags:
 - archiving
 - photography
 title: Analoge Erinnerungen und das Privileg der Fotografie
+language: de
 
 ---
 

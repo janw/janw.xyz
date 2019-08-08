@@ -1,30 +1,17 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>{{ .Title }}</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+{{ hugo.Generator }}
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+{{ with .Site.Params.author -}}
+    <meta name="author" content="{{ . }}">
+{{- end }}
 
-	{{ if (isset .Params.opengraph "description") }}
-		<meta name="description" content="{{ index .Params.opengraph "description" }}">
-	{{ else }}
-		{{ with .Site.Params.description_meta }}<meta name="description" content="{{ . }}">{{ end }}
-	{{ end}}
+{{ template "_internal/opengraph.html" . }}
+{{- template "_internal/twitter_cards.html" . }}
+<title lang="{{default .Site.LanguageCode .Page.Params.language}}">{{ .Title }}</title>
 
-	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-
-	{{ range $elem_index, $elem_val := .Params.opengraph }}
-		  <meta property="og:{{ $elem_index }}" content="{{ $elem_val }}" />
-	{{ end }}
-	{{ range $elem_index, $elem_val := .Params.twitter }}
-		  <meta name="twitter:{{ $elem_index }}" content="{{ $elem_val }}" />
-	{{ end }}
-
-
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
-	<link href="{{ .Site.BaseURL }}feed.xml" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">
-	{{ .Hugo.Generator }}
-
-</head>
-<body>
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+<link href="{{ .Site.BaseURL }}feed.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}">
