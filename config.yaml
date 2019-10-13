@@ -41,11 +41,6 @@ menu:
       weight: 100
       url: /blog/
       pre: pen-fancy
-    - identifier: flohmarkt
-      name: Flohmarkt
-      weight: 100
-      url: /flohmarkt/
-      pre: store
 
   sidebarAddedMain:
     - identifier: feed
