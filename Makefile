@@ -48,4 +48,12 @@ publish: clean html
 icons:
 	bash fa_icons_download.sh
 
-.PHONY: html help clean serve serve-global publish
+update_assets: icons
+	npm update
+
+init: icons
+	npm install
+
+build: clean init html
+
+.PHONY: html help clean serve publish icons update_assets init build
