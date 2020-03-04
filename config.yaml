@@ -7,6 +7,12 @@ assetDir: themes/janwxyz/src
 paginate: 5
 enableGitInfo: true
 
+# Required for encoded HTML in imprint
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 params:
   author: Jan Willhaus
   description: >-
