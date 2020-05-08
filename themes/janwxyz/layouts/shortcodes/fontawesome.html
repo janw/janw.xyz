@@ -1,5 +1,1 @@
-<span class="inline-svg" >
-{{- $fname:=print "faicons/svgs/" ( .Get 0 ) ".svg" -}}
-{{- $path:="<path" -}}
-{{- $fill:="<path fill=\"currentColor\"" -}}
-{{- replace (readFile $fname) $path $fill | safeHTML -}}</span>
+{{- partialCached "fontawesome.html" (.Get 0) -}}
