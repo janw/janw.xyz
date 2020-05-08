@@ -1,5 +1,5 @@
 <span class="inline-svg" >
-{{- $fname:=print "themes/janwxyz/static/icons/" ( .Get 0 ) ".svg" -}}
+{{- $fname:=print "faicons/svgs/" ( .Get 0 ) ".svg" -}}
 {{- $path:="<path" -}}
 {{- $fill:="<path fill=\"currentColor\"" -}}
 {{- replace (readFile $fname) $path $fill | safeHTML -}}</span>

@@ -35,18 +35,18 @@ menu:
     - identifier: about
       name: About Me
       url: /about/
-      pre: user-astronaut
+      pre: duotone/user-astronaut
       weight: -200
     - identifier: contact
       name: Contact
       url: /contact/
-      pre: comments
+      pre: duotone/handshake
       weight: -150
     - identifier: blog
       name: Blog
       weight: 100
       url: /blog/
-      pre: pen-fancy
+      pre: duotone/pencil-alt
 
   sidebarAddedMain:
     - identifier: feed
@@ -54,25 +54,27 @@ menu:
       title: RSS-Feed
       url: /feed.xml
       weight: 100
-      pre: rss
+      pre: duotone/rss
 
 
   profiles:
     - name: GitHub
       url: https://github.com/janw
-      pre: github
+      pre: brands/github-square
       weight: -400
     - name: Flickr
       title: Flickr.com
       url: https://www.flickr.com/photos/janwillhaus/
-      pre: flickr
-    - name: Keybase
-      url: https://keybase.io/janw
-      pre: keybase
+      pre: brands/flickr
+      weight: 550
     - name: LinkedIn
       url: https://www.linkedin.com/in/janw/
-      pre: linkedin
+      pre: brands/linkedin
       weight: 500
+    - name: Twitter
+      url: https://twitter.com/janw_xyz
+      pre: brands/twitter-square
+      weight: 600
 
 outputFormats:
   RSS:
