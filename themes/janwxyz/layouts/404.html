@@ -1,0 +1,32 @@
+{{ partial "head.html" . }}
+<style>
+  body, html { height: 100%; }
+  body { display: flex; }
+</style>
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="masthead mb-auto"></header>
+  <main class="landing">
+    <h1 class="display-1">Not found.</h1>
+    <p class="display-4">The page you are looking for<br /> does not exist.</p>
+    <p class="display-5">Sorry about that!</p>
+
+    <h4 class="mt-5">Return to</h4>
+    <nav>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a href="{{ .Site.BaseURL }}" title="Go to the Homepage">
+              {{- partial "fontawesome.html" "duotone/home" }}
+              Home
+          </a>
+        </li>
+        {{ range .Site.Menus.main }}
+          <li class="list-inline-item">
+          {{ partial "sidebar_menu_li_inner.html" .}}
+          </li>
+        {{ end }}
+      </ul>
+    </nav>
+
+  </main>
+  {{ partial "footer.html" . }}
+</div>
