@@ -6,7 +6,7 @@ INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/public
 CONFFILE=$(BASEDIR)/config.yaml
 
-SSH_HOST=box.janw.xyz
+SSH_HOST=box
 SSH_PORT=22
 SSH_USER=jan
 SSH_TARGET_DIR=/var/www/janw.xyz
