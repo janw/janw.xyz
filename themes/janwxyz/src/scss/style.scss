@@ -143,6 +143,7 @@ pre, p > code {
 
 pre {
     padding: $tooltip-padding-y $tooltip-padding-x;
+    text-overflow: ellipsis;
 }
 
 
