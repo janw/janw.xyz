@@ -9,7 +9,7 @@ CONFFILE=$(BASEDIR)/config.yaml
 SSH_HOST=box
 SSH_PORT=22
 SSH_USER=jan
-SSH_TARGET_DIR=/var/www/janw.xyz
+SSH_TARGET_DIR=~/docostack/web/site
 
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)
