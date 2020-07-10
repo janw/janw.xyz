@@ -23,7 +23,7 @@ params:
   welcome: "My name is Jan,<br> I do things on the internet."
 
   isso_comments_base: /comments
-  shynet_lytics_base: /ingress/86b28979-12ae-45bc-a02d-f23440b20492
+  shynet_lytics_base: null
 
 disableKinds:
 - taxonomy
