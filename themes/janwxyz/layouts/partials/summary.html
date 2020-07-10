@@ -1,10 +1,10 @@
 <article class="mb-5">
-  <h2 lang="{{default .Site.LanguageCode .Params.language}}" class="h1">
+  <h2 lang="{{default .Site.LanguageCode .Params.language}}" class="h1 mb-3">
     <a class="mr-2" href="{{ .Permalink }}">
     {{- .Title -}}
     </a>
   </h2>
-  <time class="text-muted">{{ .Date.Format "2006-01-02" }}</time>
+  <span class="text-muted">Published <time>{{ .Date.Format "2006-01-02" }}</time></span>
   <div class="mt-3">
     <div lang="{{default .Site.LanguageCode .Params.language}}">
       {{ .Summary }}
