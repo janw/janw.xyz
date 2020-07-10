@@ -18,8 +18,8 @@
 
 {{- $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "enableSourceMap" true "includePaths" (slice "bootstrap/scss")) -}}
 {{ $style := resources.Get "scss/style.scss" | resources.ToCSS $options | resources.Minify | resources.Fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}">
-<link href="{{ .Site.BaseURL }}feed.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}">
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+<link href="/feed.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}">
 
 <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">

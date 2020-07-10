@@ -5,7 +5,6 @@ description:
 theme: janwxyz
 assetDir: themes/janwxyz/src
 paginate: 5
-enableGitInfo: true
 
 # Required for encoded HTML in imprint
 markup:
@@ -22,10 +21,9 @@ params:
     my blog. Thanks for stopping by.
   greeting: Hi there!
   welcome: "My name is Jan,<br> I do things on the internet."
-  repository: https://github.com/janw/janw.xyz
-  isso_comments_base: https://janw.xyz/comments
-  shynet_lytics_base: https://janw.xyz/ingress/86b28979-12ae-45bc-a02d-f23440b20492
-  search_base: janw.xyz
+
+  isso_comments_base: /comments
+  shynet_lytics_base: /ingress/86b28979-12ae-45bc-a02d-f23440b20492
 
 disableKinds:
 - taxonomy
