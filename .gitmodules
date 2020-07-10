@@ -1,6 +1,6 @@
 [submodule "faicons"]
 	path = faicons
-	url = https://github.com/janw/Font-Awesome-Pro.git
+	url = git@github.com:janw/Font-Awesome-Pro.git
 [submodule "bootstrap"]
 	path = bootstrap
 	url = https://github.com/twbs/bootstrap.git
