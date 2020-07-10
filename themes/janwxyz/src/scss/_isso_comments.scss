@@ -154,12 +154,14 @@
         & > input {
             margin-left: ($vertical-spacing / 4)
         }
+        margin-bottom: 15px;
     }
     & > .form-wrapper > .auth-section .post-action > input {
         @extend .btn;
         @extend .btn-primary;
         padding-left: ($vertical-spacing / 4);
         padding-right: ($vertical-spacing / 4);
+        margin-bottom: 0px;
         font-size: 0.95rem;
     }
     & > .form-wrapper .preview,
@@ -183,5 +185,13 @@
             #fff 10px,
             #fff 20px
         );
+    }
+
+    &:after {
+        display: block;
+        color: $text-muted;
+        @include font-size(80%);
+        text-align: center;
+        content: "Comments are stored on and served from the same machine that's serving the website, and not shared with third parties like Disqus. There are no analytics, no tracking, no nothing — just how it should be."
     }
 }
