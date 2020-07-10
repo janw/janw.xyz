@@ -1,10 +1,9 @@
-
-$custom-font-path:          "../fonts/";
-$fa-font-path:              "../fonts";
-@import "fonts";
+@import "font_pacifico";
+@import "font_fira_sans";
+@import "font_monospace";
 
 $font-family-sans-serif:    'Fira Sans Extra Condensed', "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-$font-family-monospace:     'Fira Mono', Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-monospace:     'Calling Code', Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 $font-family-base:          $font-family-sans-serif;
 $headings-font-family:      'Pacifico', sans-serif;
 $font-size-base:            1.20rem;
