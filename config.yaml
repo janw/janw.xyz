@@ -23,11 +23,11 @@ params:
   welcome: "My name is Jan,<br> I do things on the internet."
 
   isso_comments_base: /comments
-  shynet_lytics_base: null
 
 disableKinds:
 - taxonomy
-- taxonomyTerm
+- term
+- tags
 
 menu:
   main:
