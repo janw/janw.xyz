@@ -17,3 +17,4 @@ RUN hugo -d build
 FROM nginx
 COPY docker/nginx.conf /etc/nginx/nginx.conf
 COPY --from=build /src/build /usr/share/nginx/html
+COPY ./vcard /usr/share/nginx/html/vcard
