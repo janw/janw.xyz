@@ -1,10 +1,13 @@
-<aside class="d-block d-md-none">
-  <div class="row">
-    <div class="col-6">
-      {{ partial "sidebar_menu_here.html" .}}
-    </div>
-    <div class="col-6">
-      {{ partial "sidebar_menu_elsewhere.html" .}}
-    </div>
+<div class="footer-menu d-flex d-md-none flex-wrap justify-content-around">
+  <div class="mr-2">
+    {{ partial "sidebar_menu_here.html" .}}
   </div>
-</aside>
+  <div class="mr-2">
+    {{ partial "sidebar_menu_elsewhere.html" .}}
+  </div>
+</div>
+<div class="row">
+  <div class="col-12 col-md-8">
+    {{ partial "footer.html" . }}
+  </div>
+</div>

@@ -38,30 +38,35 @@ $headings-color:            #315869;
 
 
 html {
-    position: relative;
-    min-height: 100%;
-    overflow-y: scroll;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
-
 body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  min-height: 100%
 }
-
 
 header {
   text-align: center;
+
+  @include media-breakpoint-up(md) {
+    text-align: left;
+  }
+
   & svg {
     @extend .img-fluid;
     margin-left: -9px;
     max-width: 16em;
   }
   margin-bottom: 2em;
+
+  & .text-primary {
+    color: $headings-color !important;
+  }
 }
 
 @include media-breakpoint-up(md) {
   main:not(.landing) {
-    margin-top: 7rem;
+    margin-top: 10rem;
   }
 }
 
@@ -81,16 +86,33 @@ header {
     margin-bottom: 0.75rem;
 }
 
-.mastfootvis, .mastfoot {
-    @media (min-width: 420px) {
-      font-size: 0.9em;
+.footer {
+  @include media-breakpoint-down(sm) {
+    background-color: $headings-color;
+    box-shadow:
+      inset 0px 2px 12px darken($headings-color, 5%),
+      inset 0px -2px 12px darken($headings-color, 5%);
+
+    & * {
+      color: $bg-alt;
     }
 
-    font-size: 0.6em;
-    color: $primary;
+    & a:hover {
+      color: $bg-alt;
+    }
   }
+}
 
-.mastfoot {
+.footer-content {
+  font-size: 0.9em;
+  color: $primary;
+
+  @include media-breakpoint-down(xs) {
+    font-size: 0.6em;
+  }
+}
+
+.footer-content {
     opacity: 0.50;
     transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
@@ -110,16 +132,10 @@ header {
     }
 }
 
-.text-red {
-    @extend .text-danger;
+.container-fluid {
+    max-width: $max-width-fluid;
 }
 
-.container-fluid {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    max-width: $max-width-fluid;
-    margin-top: 60px;
-}
 .cover-container {
     max-width: $max-width-cover;
 }
@@ -145,11 +161,9 @@ pre {
     text-overflow: ellipsis;
 }
 
-
 h1, h2, h3, h4, h5, h6 {
   hyphens: auto;
 }
-
 
 h1 a, h2 a, header a {
     &:hover{
